@@ -5,6 +5,9 @@
 
 ---
 
+![萨特肖像（1968年）](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Jean-Paul_Sartre_1968.jpg/320px-Jean-Paul_Sartre_1968.jpg)  
+*让-保罗·萨特（1968年）*
+
 ## 📸 基本信息
 
 | 项目 | 信息 |
@@ -26,6 +29,9 @@
 - **1917年** 母亲改嫁，萨特与继父关系疏远
 - **1924年** 考入巴黎高等师范学院（École Normale Supérieure）
 - **1929年** 通过哲学教师资格考试，认识西蒙娜·德·波伏娃
+
+![萨特与波伏娃（1968年）](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Jean-Paul_Sartre_et_Simone_de_Beauvoir_1968.jpg/320px-Jean-Paul_Sartre_et_Simone_de_Beauvoir_1968.jpg)  
+*萨特与西蒙娜·德·波伏娃（1968年）*
 
 ### 学术与创作期 (1930-1945)
 - **1933-1934年** 赴柏林深造，研究胡塞尔和海德格尔的现象学
@@ -68,6 +74,9 @@
 - **1940-1944年**：萨特参与地下报纸《法国信使》
 - **道德意义**：抵抗运动让萨特相信"行动"和"选择"的重要性
 - **战后神话**：萨特成为"抵抗知识分子"的象征（尽管他1941年才真正参与）
+
+![法国抵抗运动](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/French_Resistance.jpg/320px-French_Resistance.jpg)  
+*法国抵抗运动（1940-1944）*
 
 #### 3. 冷战与意识形态对立
 - **1947-1991年**：冷战时期，法国知识分子必须在**美国自由主义**和**苏联共产主义**之间选边

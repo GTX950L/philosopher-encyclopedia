@@ -5,6 +5,9 @@
 
 ---
 
+![阿尔贝·加缪肖像](https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Albert_Camus.jpg/320px-Albert_Camus.jpg)  
+*阿尔贝·加缪*
+
 ## 📸 基本信息
 
 | 项目 | 信息 |
@@ -61,6 +64,9 @@
 - **"黑脚" (Pieds-Noirs)**：法国裔阿尔及利亚人，加缪是其中一员
 - **贫困与阳光**：加缪的童年是贫困的（母亲是清洁工），但阿尔及利亚的阳光、大海塑造了他的"地中海思想"
 - **种族隔离**：尽管贫困，加缪作为"欧洲人"仍享有特权，这让他对殖民问题有复杂感受
+
+![阿尔及尔，加缪的故乡](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Algiers_Casbah.jpg/320px-Algiers_Casbah.jpg)  
+*阿尔及尔，加缪的故乡*
 
 #### 2. 二战与抵抗运动
 - **1940年**：加缪因反对维希政府被解雇，流亡到法国本土
@@ -164,6 +170,9 @@
   - 社会如何惩罚一个"不按规则表演"的人
   - 默尔索在法庭上被审判的不是杀人，而是"在母亲葬礼上没有哭"
 - **意义**：20世纪最重要的小说之一，存在主义文学经典
+
+![《局外人》初版封面](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/The_Stranger_%28Camus_novel%29_-_first_edition.jpg/320px-The_Stranger_%28Camus_novel%29_-_first_edition.jpg)  
+*《局外人》初版封面（1942年）*
 
 ---
 

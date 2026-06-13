@@ -5,6 +5,9 @@
 
 ---
 
+![尼采肖像](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Nietzsche_portrait.jpg/320px-Nietzsche_portrait.jpg)  
+*年轻时的尼采（1860年代）*
+
 ## 📸 基本信息
 
 | 项目 | 信息 |
@@ -56,6 +59,9 @@
 - **1840-1870年代**：蒸汽机、铁路、工厂制度彻底改变欧洲社会
 - **传统社会结构瓦解**：贵族衰落，资产阶级崛起，工人阶级形成
 - **尼采的反应**：批判"现代性"——指工业社会使人变成"最后的人"（舒适但无灵魂）
+
+![19世纪的德国工业革命](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Deutsche_Industrie_19_Jahrhundert.jpg/320px-Deutsche_Industrie_19_Jahrhundert.jpg)  
+*19世纪德国工业革命*
 
 #### 2. 宗教信仰的崩溃
 - **科学革命**：达尔文《物种起源》（1859）挑战创世论
@@ -136,6 +142,9 @@
 - 以波斯先知查拉图斯特拉为代言人
 - 阐述"超人"、"永恒轮回"、"权力意志"等核心思想
 - 文学性极强，被誉为"哲学诗"
+
+![《查拉图斯特拉如是说》初版封面](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Also_sprach_Zarathustra_%28first_edition%29.jpg/320px-Also_sprach_Zarathustra_%28first_edition%29.jpg)  
+*《查拉图斯特拉如是说》初版封面（1883年）*
 
 ### 《善恶的彼岸》(1886)
 - 对传统道德的激进批判
