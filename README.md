@@ -72,7 +72,7 @@
 
 ---
 
-## 📚 已收录哲学家（28 位）
+## 📚 已收录哲学家（33 位）
 
 ### 存在主义与现象学主线（10 位）
 
@@ -88,11 +88,15 @@
 | [莫里斯·梅洛-庞蒂](philosophers/merleau-ponty.md) | 20世纪 | 现象学、存在主义 | ✅ 已完成 |
 | [卡尔·雅斯贝尔斯](philosophers/jaspers.md) | 20世纪 | 存在主义 | ✅ 已完成 |
 | [费奥多尔·陀思妥耶夫斯基](philosophers/dostoevsky.md) | 19世纪 | 存在主义文学先驱 | ✅ 已完成 |
+| [埃德蒙德·胡塞尔](philosophers/husserl.md) | 20世纪 | 现象学创始人 | ✅ 已完成 |
+| [埃里希·弗洛姆](philosophers/fromm.md) | 20世纪 | 存在主义、人本主义精神分析 | ✅ 已完成 |
 
 ### 古希腊哲学源头（2 位）
 
 | 哲学家 | 时代 | 流派 | 状态 |
 |--------|------|------|------|
+| [柏拉图](philosophers/plato.md) | 古希腊 | 理念论、学园派 | ✅ 已完成 |
+| [苏格拉底](philosophers/socrates.md) | 古希腊 | 道德哲学、诘问法 | ✅ 已完成 |
 | [柏拉图](philosophers/plato.md) | 古希腊 | 理念论、学园派 | ✅ 已完成 |
 | [亚里士多德](philosophers/aristotle.md) | 古希腊 | 逻辑学、德性伦理学 | ✅ 已完成 |
 
@@ -102,6 +106,7 @@
 |--------|------|------|------|
 | [孔子](philosophers/confucius.md) | 春秋时期 | 儒家 | ✅ 已完成 |
 | [老子](philosophers/laozi.md) | 春秋时期 | 道家 | ✅ 已完成 |
+| [庄子](philosophers/zhuangzi.md) | 战国中期 | 道家、齐物论 | ✅ 已完成 |
 
 ### 德国古典哲学与马克思主义（3 位）
 
@@ -123,6 +128,10 @@
 | 哲学家 | 时代 | 流派 | 状态 |
 |--------|------|------|------|
 | [路德维希·维特根斯坦](philosophers/wittgenstein.md) | 20世纪 | 分析哲学、语言哲学 | ✅ 已完成 |
+| [米歇尔·福柯](philosophers/foucault.md) | 20世纪 | 后结构主义 | ✅ 已完成 |
+| [雅克·德里达](philosophers/derrida.md) | 20世纪 | 解构主义 | ✅ 已完成 |
+| [路德维希·维特根斯坦](philosophers/wittgenstein.md) | 20世纪 | 分析哲学、语言哲学 | ✅ 已完成 |
+| [伯特兰·罗素](philosophers/russell.md) | 20世纪 | 分析哲学、数理逻辑 | ✅ 已完成 |
 | [米歇尔·福柯](philosophers/foucault.md) | 20世纪 | 后结构主义 | ✅ 已完成 |
 | [雅克·德里达](philosophers/derrida.md) | 20世纪 | 解构主义 | ✅ 已完成 |
 | [汉娜·阿伦特](philosophers/arendt.md) | 20世纪 | 政治哲学 | ✅ 已完成 |
@@ -148,7 +157,7 @@
 philosopher-encyclopedia/
 ├── README.md              # 项目说明
 ├── CONTRIBUTING.md        # 贡献指南
-├── philosophers/          # 哲学家条目目录（28 位）
+├── philosophers/          # 哲学家条目目录（33 位）
 │   ├── camus.md          # 阿尔贝·加缪
 │   ├── sartre.md         # 让-保罗·萨特
 │   ├── kierkegaard.md   # 索伦·克尔凯郭尔
@@ -205,4 +214,4 @@ philosopher-encyclopedia/
 
 **维护者**: GTX950L  
 **创建时间**: 2026年6月  
-**最近更新**: 2026年6月（新增 12 位哲学家：柏拉图、亚里士多德、康德、笛卡尔、休谟、孔子、老子、霍布斯、洛克、密尔、杜威、波普尔；全部 28 位条目均含目录导航与相关哲学家导引）
+**最近更新**: 2026年6月（新增 17 位哲学家：苏格拉底、庄子、胡塞尔、弗洛姆、罗素等；全部 33 位条目均含目录导航、编者注与相关哲学家导引）
