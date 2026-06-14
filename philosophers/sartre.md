@@ -1,4 +1,5 @@
 # 让-保罗·萨特 (Jean-Paul Sartre)
+<a id="top"></a>
 
 > "存在先于本质。"  
 > *"L'existence précède l'essence."*
@@ -325,6 +326,8 @@
 - [福柯](foucault.md) — 后结构主义对存在主义的继承与批判
 - [雅斯贝尔斯](jaspers.md) — 存在主义同路人
 
+
+⬆️ **[回到顶部](#top)**
 **最后更新**: 2026年6月  
 **贡献者**: GTX950L  
 **License**: MIT

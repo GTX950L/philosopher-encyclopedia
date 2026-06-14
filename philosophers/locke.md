@@ -1,4 +1,5 @@
 # 约翰·洛克 (John Locke)
+<a id="top"></a>
 
 > "政府的目的，是保护生命、自由和财产。"
 > *"The great end of government is the preservation of property."*
@@ -241,6 +242,8 @@
 
 ---
 
+
+⬆️ **[回到顶部](#top)**
 **最后更新**: 2026年6月
 **贡献者**: GTX950L
 **License**: MIT

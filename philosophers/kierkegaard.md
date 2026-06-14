@@ -1,4 +1,5 @@
 # 索伦·克尔凯郭尔 (Søren Kierkegaard)
+<a id="top"></a>
 
 > "真理是主观的。"  
 > *"Truth is subjectivity."*
@@ -253,6 +254,8 @@
 - [陀思妥耶夫斯基](dostoevsky.md) — 同时强调个体困境
 - [阿伦特](arendt.md) — 受'个体'概念影响
 
+
+⬆️ **[回到顶部](#top)**
 **最后更新**: 2026年6月  
 **贡献者**: GTX950L  
 **License**: MIT

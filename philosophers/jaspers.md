@@ -1,4 +1,5 @@
 # 卡尔·雅斯贝尔斯 (Karl Jaspers)
+<a id="top"></a>
 
 > "哲学的任务不是给予答案，而是引导人们去提问。"
 > *"Philosophie hat nicht die Aufgabe, Antworten zu geben, sondern zur Fragestellung hinzuführen."*
@@ -225,6 +226,8 @@
 
 ---
 
+
+⬆️ **[回到顶部](#top)**
 **最后更新**: 2026年6月
 **贡献者**: GTX950L
 **License**: MIT

@@ -1,4 +1,5 @@
 # 勒内·笛卡尔 (René Descartes)
+<a id="top"></a>
 
 > "我思，故我在。"
 > *"Cogito, ergo sum." / "Je pense, donc je suis."*
@@ -232,6 +233,8 @@
 
 ---
 
+
+⬆️ **[回到顶部](#top)**
 **最后更新**: 2026年6月
 **贡献者**: GTX950L
 **License**: MIT

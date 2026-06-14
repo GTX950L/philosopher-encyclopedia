@@ -1,4 +1,5 @@
 # 卡尔·波普尔 (Karl Popper)
+<a id="top"></a>
 
 > "开放社会及其敌人。"
 > *"The Open Society and Its Enemies."*
@@ -237,6 +238,8 @@
 
 ---
 
+
+⬆️ **[回到顶部](#top)**
 **最后更新**: 2026年6月
 **贡献者**: GTX950L
 **License**: MIT

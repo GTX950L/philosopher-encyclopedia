@@ -1,4 +1,5 @@
 # 路德维希·维特根斯坦 (Ludwig Wittgenstein)
+<a id="top"></a>
 
 > "凡是不可言说的，必须保持沉默。"
 > *"Wovon man nicht sprechen kann, darüber muss man schweigen."*
@@ -228,6 +229,8 @@
 
 ---
 
+
+⬆️ **[回到顶部](#top)**
 **最后更新**: 2026年6月
 **贡献者**: GTX950L
 **License**: MIT

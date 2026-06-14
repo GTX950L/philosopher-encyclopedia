@@ -1,4 +1,5 @@
 # 伊曼努尔·康德 (Immanuel Kant)
+<a id="top"></a>
 
 > "要敢于认识！要有勇气运用你自己的理性！这就是启蒙的座右铭。"
 > *"Sapere aude! Habe Mut, dich deines eigenen Verstandes zu bedienen! ist also der Wahlspruch der Aufklärung."*
@@ -272,6 +273,8 @@
 
 ---
 
+
+⬆️ **[回到顶部](#top)**
 **最后更新**: 2026年6月
 **贡献者**: GTX950L
 **License**: MIT

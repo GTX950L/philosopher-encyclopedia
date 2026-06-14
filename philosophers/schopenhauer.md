@@ -1,4 +1,5 @@
 # 亚瑟·叔本华 (Arthur Schopenhauer)
+<a id="top"></a>
 
 > "人生就像一盘棋，一步走错，满盘皆输。"
 > *"Das Leben ist ein Schachspiel, und wer nicht aufpasst, verliert."*
@@ -230,6 +231,8 @@
 
 ---
 
+
+⬆️ **[回到顶部](#top)**
 **最后更新**: 2026年6月
 **贡献者**: GTX950L
 **License**: MIT

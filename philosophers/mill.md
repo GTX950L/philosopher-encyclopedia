@@ -1,4 +1,5 @@
 # 约翰·斯图尔特·密尔 (John Stuart Mill)
+<a id="top"></a>
 
 > "与其做一头满足的猪，不如做人；与其做一个满足的蠢人，不如做苏格拉底。"
 > *"It is better to be a human being dissatisfied than a pig satisfied; better to be Socrates dissatisfied than a fool satisfied."*
@@ -230,6 +231,8 @@
 
 ---
 
+
+⬆️ **[回到顶部](#top)**
 **最后更新**: 2026年6月
 **贡献者**: GTX950L
 **License**: MIT

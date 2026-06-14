@@ -1,4 +1,5 @@
 # 汉娜·阿伦特 (Hannah Arendt)
+<a id="top"></a>
 
 > "恶是平庸的。"
 > *"Das Böse ist banal."*
@@ -217,6 +218,8 @@
 
 ---
 
+
+⬆️ **[回到顶部](#top)**
 **最后更新**: 2026年6月
 **贡献者**: GTX950L
 **License**: MIT

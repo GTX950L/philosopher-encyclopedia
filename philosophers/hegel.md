@@ -1,4 +1,5 @@
 # 格奥尔格·威廉·弗里德里希·黑格尔 (G.W.F. Hegel)
+<a id="top"></a>
 
 > "凡是合理的都是现实的，凡是现实的都是合理的。"
 > *"Was vernünftig ist, das ist wirklich; und was wirklich ist, das ist vernünftig."*
@@ -224,6 +225,8 @@
 
 ---
 
+
+⬆️ **[回到顶部](#top)**
 **最后更新**: 2026年6月
 **贡献者**: GTX950L
 **License**: MIT

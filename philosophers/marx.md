@@ -1,4 +1,5 @@
 # 卡尔·马克思 (Karl Marx)
+<a id="top"></a>
 
 > "哲学家们只是用不同的方式解释世界，而问题在于改变世界。"
 > *"Die Philosophen haben die Welt nur verschieden interpretiert, es kömmt darauf an, sie zu verändern."*
@@ -232,6 +233,8 @@
 
 ---
 
+
+⬆️ **[回到顶部](#top)**
 **最后更新**: 2026年6月
 **贡献者**: GTX950L
 **License**: MIT

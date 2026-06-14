@@ -1,4 +1,5 @@
 # 马丁·海德格尔 (Martin Heidegger)
+<a id="top"></a>
 
 > "向死而生。"  
 > *"Sein zum Tode."*
@@ -316,6 +317,8 @@
 - [尼采](nietzsche.md) — 海德格尔专门研究尼采
 - [维特根斯坦](wittgenstein.md) — 同时关注语言与存在
 
+
+⬆️ **[回到顶部](#top)**
 **最后更新**: 2026年6月  
 **贡献者**: GTX950L  
 **License**: MIT

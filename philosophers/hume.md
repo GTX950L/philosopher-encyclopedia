@@ -1,4 +1,5 @@
 # 大卫·休谟 (David Hume)
+<a id="top"></a>
 
 > "理性是激情的奴隶。"
 > *"Reason is, and ought only to be the slave of the passions."*
@@ -250,6 +251,8 @@
 
 ---
 
+
+⬆️ **[回到顶部](#top)**
 **最后更新**: 2026年6月
 **贡献者**: GTX950L
 **License**: MIT

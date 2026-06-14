@@ -1,4 +1,5 @@
 # 阿尔贝·加缪 (Albert Camus)
+<a id="top"></a>
 
 > "在隆冬，我终于知道，我身上有一个不可战胜的夏天。"  
 > *"Au milieu de l'hiver, je découvrais enfin qu'il y avait en moi un été invincible."*
@@ -365,6 +366,8 @@
 - [克尔凯郭尔](kierkegaard.md) — 存在主义先驱
 - [梅洛-庞蒂](merleau-ponty.md) — 同时代》，有交往
 
+
+⬆️ **[回到顶部](#top)**
 **最后更新**: 2026年6月  
 **贡献者**: GTX950L  
 **License**: MIT

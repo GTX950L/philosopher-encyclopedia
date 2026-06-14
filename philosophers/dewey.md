@@ -1,4 +1,5 @@
 # 约翰·杜威 (John Dewey)
+<a id="top"></a>
 
 > "民主不仅是一种政府形式，更是一种生活方式。"
 > *"Democracy is not only a form of government, but primarily a mode of associated living."*
@@ -237,6 +238,8 @@
 
 ---
 
+
+⬆️ **[回到顶部](#top)**
 **最后更新**: 2026年6月
 **贡献者**: GTX950L
 **License**: MIT

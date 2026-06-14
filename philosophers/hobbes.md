@@ -1,4 +1,5 @@
 # 托马斯·霍布斯 (Thomas Hobbes)
+<a id="top"></a>
 
 > "在没有一个共同权力使大家慑服的时候，人们便处在所谓的战争状态之下。"
 > *"In the absence of a common power to keep them all in awe, they are in that condition which is called war."*
@@ -220,6 +221,8 @@
 
 ---
 
+
+⬆️ **[回到顶部](#top)**
 **最后更新**: 2026年6月
 **贡献者**: GTX950L
 **License**: MIT

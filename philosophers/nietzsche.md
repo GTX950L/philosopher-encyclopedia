@@ -1,4 +1,5 @@
 # 弗里德里希·尼采 (Friedrich Nietzsche)
+<a id="top"></a>
 
 > "那些杀不死我的，会使我更强大。"  
 > *"Was mich nicht umbringt, macht mich stärker."*
@@ -268,6 +269,8 @@
 - [福柯](foucault.md) — 自称'尼采式'哲学家
 - [德里达](derrida.md) — 解构主义受尼采启发
 
+
+⬆️ **[回到顶部](#top)**
 **最后更新**: 2026年6月  
 **贡献者**: GTX950L  
 **License**: MIT

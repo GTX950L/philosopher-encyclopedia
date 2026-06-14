@@ -1,4 +1,5 @@
 # 莫里斯·梅洛-庞蒂 (Maurice Merleau-Ponty)
+<a id="top"></a>
 
 > "世界不是我思考的东西，而是我生活的东西。"  
 > *"Le monde n'est pas ce que je pense, mais ce que je vis."*
@@ -270,6 +271,8 @@
 - [福柯](foucault.md) — 身体与感知分析的影响
 - [梅洛-庞蒂](merleau-ponty.md) — （自引用，应移除）
 
+
+⬆️ **[回到顶部](#top)**
 **最后更新**: 2026年6月  
 **贡献者**: GTX950L  
 **License**: MIT

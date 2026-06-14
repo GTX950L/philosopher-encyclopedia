@@ -1,4 +1,5 @@
 # 雅克·德里达 (Jacques Derrida)
+<a id="top"></a>
 
 > "文本之外，别无他物。"
 > *"Il n'y a pas de hors-texte."*
@@ -229,6 +230,8 @@
 
 ---
 
+
+⬆️ **[回到顶部](#top)**
 **最后更新**: 2026年6月
 **贡献者**: GTX950L
 **License**: MIT

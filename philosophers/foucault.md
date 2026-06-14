@@ -1,4 +1,5 @@
 # 米歇尔·福柯 (Michel Foucault)
+<a id="top"></a>
 
 > "人终将消亡，就像海边沙滩上的一张脸。"
 > *"L'homme est une invention dont l'archéologie montre facilement la date récente. Et fin prochaine."*
@@ -222,6 +223,8 @@
 
 ---
 
+
+⬆️ **[回到顶部](#top)**
 **最后更新**: 2026年6月
 **贡献者**: GTX950L
 **License**: MIT

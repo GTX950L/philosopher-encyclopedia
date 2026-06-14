@@ -1,4 +1,5 @@
 # 西蒙娜·德·波伏娃 (Simone de Beauvoir)
+<a id="top"></a>
 
 > "女人不是天生的，而是后天形成的。"  
 > *"On ne naît pas femme, on le devient."*
@@ -265,6 +266,8 @@
 - [福柯](foucault.md) — 权力与性别分析
 - [波伏娃](beauvoir.md) — （自引用，应移除）
 
+
+⬆️ **[回到顶部](#top)**
 **最后更新**: 2026年6月  
 **贡献者**: GTX950L  
 **License**: MIT
