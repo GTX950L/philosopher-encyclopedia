@@ -52,29 +52,31 @@
 
 | 顺序 | 哲学家 | 为什么这样排 |
 |------|--------|-------------|
-| 17 | [柏拉图](philosophers/plato.md) | 西方哲学奠基人，理念论与洞穴寓言 |
-| 18 | [亚里士多德](philosophers/aristotle.md) | 柏拉图的学生，逻辑学、德性伦理学开创者 |
-| 19 | [孔子](philosophers/confucius.md) | 中国哲学源头，仁礼之道 |
-| 20 | [老子](philosophers/laozi.md) | 道家创始人，道法自然与无为而治 |
-| 21 | [笛卡尔](philosophers/descartes.md) | 近代哲学起点，"我思故我在" |
-| 22 | [大卫·休谟](philosophers/hume.md) | 经验主义集大成者，因果问题与归纳问题 |
-| 23 | [伊曼努尔·康德](philosophers/kant.md) | 德国古典哲学集大成者，三大批判 |
+| 17 | [苏格拉底](philosophers/socrates.md) | 古希腊道德哲学的奠基人，诘问法的开创者 |
+| 18 | [柏拉图](philosophers/plato.md) | 西方哲学奠基人，理念论与洞穴寓言 |
+| 19 | [亚里士多德](philosophers/aristotle.md) | 柏拉图的学生，逻辑学、德性伦理学开创者 |
+| 20 | [孔子](philosophers/confucius.md) | 中国哲学源头，仁礼之道 |
+| 21 | [老子](philosophers/laozi.md) | 道家创始人，道法自然与无为而治 |
+| 22 | [庄子](philosophers/zhuangzi.md) | 战国中期道家、齐物论 |
+| 23 | [笛卡尔](philosophers/descartes.md) | 近代哲学起点，"我思故我在" |
+| 24 | [大卫·休谟](philosophers/hume.md) | 经验主义集大成者，因果问题与归纳问题 |
+| 25 | [伊曼努尔·康德](philosophers/kant.md) | 德国古典哲学集大成者，三大批判 |
 
 ### 第四阶：政治哲学与科学哲学
 
 | 顺序 | 哲学家 | 为什么这样排 |
 |------|--------|-------------|
-| 24 | [托马斯·霍布斯](philosophers/hobbes.md) | 社会契约论起点，自然状态与利维坦 |
-| 25 | [约翰·洛克](philosophers/locke.md) | 古典自由主义，自然权利与有限政府 |
-| 26 | [约翰·斯图尔特·密尔](philosophers/mill.md) | 功利主义与论自由，伤害原则 |
-| 27 | [约翰·杜威](philosophers/dewey.md) | 美国实用主义，民主作为生活方式 |
-| 28 | [卡尔·波普尔](philosophers/popper.md) | 批判理性主义，开放社会及其敌人 |
+| 26 | [托马斯·霍布斯](philosophers/hobbes.md) | 社会契约论起点，自然状态与利维坦 |
+| 27 | [约翰·洛克](philosophers/locke.md) | 古典自由主义，自然权利与有限政府 |
+| 28 | [约翰·斯图尔特·密尔](philosophers/mill.md) | 功利主义与论自由，伤害原则 |
+| 29 | [约翰·杜威](philosophers/dewey.md) | 美国实用主义，民主作为生活方式 |
+| 30 | [卡尔·波普尔](philosophers/popper.md) | 批判理性主义，开放社会及其敌人 |
 
 ---
 
 ## 📚 已收录哲学家（33 位）
 
-### 存在主义与现象学主线（10 位）
+### 存在主义与现象学主线（12 位）
 
 | 哲学家 | 时代 | 流派 | 状态 |
 |--------|------|------|------|
@@ -91,16 +93,15 @@
 | [埃德蒙德·胡塞尔](philosophers/husserl.md) | 20世纪 | 现象学创始人 | ✅ 已完成 |
 | [埃里希·弗洛姆](philosophers/fromm.md) | 20世纪 | 存在主义、人本主义精神分析 | ✅ 已完成 |
 
-### 古希腊哲学源头（2 位）
+### 古希腊哲学源头（3 位）
 
 | 哲学家 | 时代 | 流派 | 状态 |
 |--------|------|------|------|
-| [柏拉图](philosophers/plato.md) | 古希腊 | 理念论、学园派 | ✅ 已完成 |
 | [苏格拉底](philosophers/socrates.md) | 古希腊 | 道德哲学、诘问法 | ✅ 已完成 |
 | [柏拉图](philosophers/plato.md) | 古希腊 | 理念论、学园派 | ✅ 已完成 |
 | [亚里士多德](philosophers/aristotle.md) | 古希腊 | 逻辑学、德性伦理学 | ✅ 已完成 |
 
-### 中国哲学（2 位）
+### 中国哲学（3 位）
 
 | 哲学家 | 时代 | 流派 | 状态 |
 |--------|------|------|------|
@@ -130,16 +131,13 @@
 | [路德维希·维特根斯坦](philosophers/wittgenstein.md) | 20世纪 | 分析哲学、语言哲学 | ✅ 已完成 |
 | [米歇尔·福柯](philosophers/foucault.md) | 20世纪 | 后结构主义 | ✅ 已完成 |
 | [雅克·德里达](philosophers/derrida.md) | 20世纪 | 解构主义 | ✅ 已完成 |
-| [路德维希·维特根斯坦](philosophers/wittgenstein.md) | 20世纪 | 分析哲学、语言哲学 | ✅ 已完成 |
 | [伯特兰·罗素](philosophers/russell.md) | 20世纪 | 分析哲学、数理逻辑 | ✅ 已完成 |
-| [米歇尔·福柯](philosophers/foucault.md) | 20世纪 | 后结构主义 | ✅ 已完成 |
-| [雅克·德里达](philosophers/derrida.md) | 20世纪 | 解构主义 | ✅ 已完成 |
-| [汉娜·阿伦特](philosophers/arendt.md) | 20世纪 | 政治哲学 | ✅ 已完成 |
 
-### 政治哲学与功利主义（3 位）
+### 政治哲学与功利主义（4 位）
 
 | 哲学家 | 时代 | 流派 | 状态 |
 |--------|------|------|------|
+| [汉娜·阿伦特](philosophers/arendt.md) | 20世纪 | 政治哲学 | ✅ 已完成 |
 | [托马斯·霍布斯](philosophers/hobbes.md) | 17世纪 | 社会契约论 | ✅ 已完成 |
 | [约翰·洛克](philosophers/locke.md) | 17世纪 | 古典自由主义 | ✅ 已完成 |
 | [约翰·斯图尔特·密尔](philosophers/mill.md) | 19世纪 | 功利主义、自由主义 | ✅ 已完成 |
@@ -150,6 +148,8 @@
 |--------|------|------|------|
 | [约翰·杜威](philosophers/dewey.md) | 20世纪 | 实用主义、进步主义教育 | ✅ 已完成 |
 | [卡尔·波普尔](philosophers/popper.md) | 20世纪 | 批判理性主义、科学哲学 | ✅ 已完成 |
+
+---
 
 ## 📁 项目结构
 
@@ -168,10 +168,14 @@ philosopher-encyclopedia/
 │   ├── merleau-ponty.md # 莫里斯·梅洛-庞蒂
 │   ├── jaspers.md       # 卡尔·雅斯贝尔斯
 │   ├── dostoevsky.md    # 费奥多尔·陀思妥耶夫斯基
+│   ├── husserl.md       # 埃德蒙德·胡塞尔
+│   ├── fromm.md         # 埃里希·弗洛姆
+│   ├── socrates.md      # 苏格拉底
 │   ├── plato.md         # 柏拉图
 │   ├── aristotle.md     # 亚里士多德
 │   ├── confucius.md     # 孔子
 │   ├── laozi.md         # 老子
+│   ├── zhuangzi.md     # 庄子
 │   ├── kant.md          # 伊曼努尔·康德
 │   ├── hegel.md          # 格奥尔格·威廉·弗里德里希·黑格尔
 │   ├── marx.md           # 卡尔·马克思
@@ -180,6 +184,7 @@ philosopher-encyclopedia/
 │   ├── arendt.md        # 汉娜·阿伦特
 │   ├── foucault.md       # 米歇尔·福柯
 │   ├── derrida.md       # 雅克·德里达
+│   ├── russell.md       # 伯特兰·罗素
 │   ├── wittgenstein.md  # 路德维希·维特根斯坦
 │   ├── hobbes.md        # 托马斯·霍布斯
 │   ├── locke.md         # 约翰·洛克
@@ -212,6 +217,6 @@ philosopher-encyclopedia/
 
 ---
 
-**维护者**: GTX950L  
-**创建时间**: 2026年6月  
-**最近更新**: 2026年6月（新增 17 位哲学家：苏格拉底、庄子、胡塞尔、弗洛姆、罗素等；全部 33 位条目均含目录导航、编者注与相关哲学家导引）
+**维护者**: GTX950L
+**创建时间**: 2026年6月
+**最近更新**: 2026年6月（修复README重复条目，新增docs/timeline.md和docs/schools.md）
