@@ -1,6 +1,6 @@
 # 哲学家百科全书 (Philosopher Encyclopedia)
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Status](https://img.shields.io/badge/status-持续更新-green.svg)
+![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Status](https://img.shields.io/badge/status-持续更新-green.svg) ![Philosophers](https://img.shields.io/badge/已收录-33位-orange.svg)
 
 ## 📖 项目简介
 
@@ -76,7 +76,12 @@
 
 ## 📚 已收录哲学家（33 位）
 
+> 点击各分类展开查看详情
+
 ### 存在主义与现象学主线（12 位）
+
+<details>
+<summary>点击展开</summary>
 
 | 哲学家 | 时代 | 流派 | 状态 |
 |--------|------|------|------|
@@ -93,7 +98,12 @@
 | [埃德蒙德·胡塞尔](philosophers/husserl.md) | 20世纪 | 现象学创始人 | ✅ 已完成 |
 | [埃里希·弗洛姆](philosophers/fromm.md) | 20世纪 | 存在主义、人本主义精神分析 | ✅ 已完成 |
 
+</details>
+
 ### 古希腊哲学源头（3 位）
+
+<details>
+<summary>点击展开</summary>
 
 | 哲学家 | 时代 | 流派 | 状态 |
 |--------|------|------|------|
@@ -101,7 +111,12 @@
 | [柏拉图](philosophers/plato.md) | 古希腊 | 理念论、学园派 | ✅ 已完成 |
 | [亚里士多德](philosophers/aristotle.md) | 古希腊 | 逻辑学、德性伦理学 | ✅ 已完成 |
 
+</details>
+
 ### 中国哲学（3 位）
+
+<details>
+<summary>点击展开</summary>
 
 | 哲学家 | 时代 | 流派 | 状态 |
 |--------|------|------|------|
@@ -109,7 +124,12 @@
 | [老子](philosophers/laozi.md) | 春秋时期 | 道家 | ✅ 已完成 |
 | [庄子](philosophers/zhuangzi.md) | 战国中期 | 道家、齐物论 | ✅ 已完成 |
 
+</details>
+
 ### 德国古典哲学与马克思主义（3 位）
+
+<details>
+<summary>点击展开</summary>
 
 | 哲学家 | 时代 | 流派 | 状态 |
 |--------|------|------|------|
@@ -117,14 +137,24 @@
 | [格奥尔格·威廉·弗里德里希·黑格尔](philosophers/hegel.md) | 19世纪 | 德国唯心主义、辩证法 | ✅ 已完成 |
 | [卡尔·马克思](philosophers/marx.md) | 19世纪 | 历史唯物主义 | ✅ 已完成 |
 
+</details>
+
 ### 理性主义与经验主义（2 位）
+
+<details>
+<summary>点击展开</summary>
 
 | 哲学家 | 时代 | 流派 | 状态 |
 |--------|------|------|------|
 | [勒内·笛卡尔](philosophers/descartes.md) | 17世纪 | 理性主义、近代哲学 | ✅ 已完成 |
 | [大卫·休谟](philosophers/hume.md) | 18世纪 | 经验主义、怀疑主义 | ✅ 已完成 |
 
+</details>
+
 ### 后结构主义与分析哲学（4 位）
+
+<details>
+<summary>点击展开</summary>
 
 | 哲学家 | 时代 | 流派 | 状态 |
 |--------|------|------|------|
@@ -133,7 +163,12 @@
 | [雅克·德里达](philosophers/derrida.md) | 20世纪 | 解构主义 | ✅ 已完成 |
 | [伯特兰·罗素](philosophers/russell.md) | 20世纪 | 分析哲学、数理逻辑 | ✅ 已完成 |
 
+</details>
+
 ### 政治哲学与功利主义（4 位）
+
+<details>
+<summary>点击展开</summary>
 
 | 哲学家 | 时代 | 流派 | 状态 |
 |--------|------|------|------|
@@ -142,12 +177,19 @@
 | [约翰·洛克](philosophers/locke.md) | 17世纪 | 古典自由主义 | ✅ 已完成 |
 | [约翰·斯图尔特·密尔](philosophers/mill.md) | 19世纪 | 功利主义、自由主义 | ✅ 已完成 |
 
+</details>
+
 ### 实用主义与批判理性主义（2 位）
+
+<details>
+<summary>点击展开</summary>
 
 | 哲学家 | 时代 | 流派 | 状态 |
 |--------|------|------|------|
 | [约翰·杜威](philosophers/dewey.md) | 20世纪 | 实用主义、进步主义教育 | ✅ 已完成 |
 | [卡尔·波普尔](philosophers/popper.md) | 20世纪 | 批判理性主义、科学哲学 | ✅ 已完成 |
+
+</details>
 
 ---
 
@@ -160,37 +202,7 @@ philosopher-encyclopedia/
 ├── philosophers/          # 哲学家条目目录（33 位）
 │   ├── camus.md          # 阿尔贝·加缪
 │   ├── sartre.md         # 让-保罗·萨特
-│   ├── kierkegaard.md   # 索伦·克尔凯郭尔
-│   ├── nietzsche.md      # 弗里德里希·尼采
-│   ├── schopenhauer.md  # 亚瑟·叔本华
-│   ├── heidegger.md      # 马丁·海德格尔
-│   ├── beauvoir.md       # 西蒙娜·德·波伏娃
-│   ├── merleau-ponty.md # 莫里斯·梅洛-庞蒂
-│   ├── jaspers.md       # 卡尔·雅斯贝尔斯
-│   ├── dostoevsky.md    # 费奥多尔·陀思妥耶夫斯基
-│   ├── husserl.md       # 埃德蒙德·胡塞尔
-│   ├── fromm.md         # 埃里希·弗洛姆
-│   ├── socrates.md      # 苏格拉底
-│   ├── plato.md         # 柏拉图
-│   ├── aristotle.md     # 亚里士多德
-│   ├── confucius.md     # 孔子
-│   ├── laozi.md         # 老子
-│   ├── zhuangzi.md     # 庄子
-│   ├── kant.md          # 伊曼努尔·康德
-│   ├── hegel.md          # 格奥尔格·威廉·弗里德里希·黑格尔
-│   ├── marx.md           # 卡尔·马克思
-│   ├── descartes.md    # 勒内·笛卡尔
-│   ├── hume.md          # 大卫·休谟
-│   ├── arendt.md        # 汉娜·阿伦特
-│   ├── foucault.md       # 米歇尔·福柯
-│   ├── derrida.md       # 雅克·德里达
-│   ├── russell.md       # 伯特兰·罗素
-│   ├── wittgenstein.md  # 路德维希·维特根斯坦
-│   ├── hobbes.md        # 托马斯·霍布斯
-│   ├── locke.md         # 约翰·洛克
-│   ├── mill.md          # 约翰·斯图尔特·密尔
-│   ├── dewey.md         # 约翰·杜威
-│   └── popper.md        # 卡尔·波普尔
+│   └── ...               # 更多哲学家
 ├── docs/                  # 补充资料
 │   ├── timeline.md        # 哲学史时间线
 │   └── schools.md         # 哲学流派概览
@@ -217,6 +229,6 @@ philosopher-encyclopedia/
 
 ---
 
-**维护者**: GTX950L
-**创建时间**: 2026年6月
-**最近更新**: 2026年6月（修复README重复条目，新增docs/timeline.md和docs/schools.md）
+**维护者**: GTX950L  
+**创建时间**: 2026年6月  
+**最近更新**: 2026年6月
