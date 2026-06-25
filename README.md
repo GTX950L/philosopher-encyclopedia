@@ -1,6 +1,30 @@
 # 哲学家百科全书 (Philosopher Encyclopedia)
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Status](https://img.shields.io/badge/status-持续更新-green.svg) ![Philosophers](https://img.shields.io/badge/已收录-33位-orange.svg)
+<p align="center">
+  <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License" />
+  <img src="https://img.shields.io/badge/状态-持续更新-green.svg" alt="Status" />
+  <img src="https://img.shields.io/badge/已收录-34位-orange.svg" alt="Philosophers" />
+  <img src="https://img.shields.io/github/stars/GTX950L/philosopher-encyclopedia?style=social" alt="Stars" />
+  <img src="https://img.shields.io/github/forks/GTX950L/philosopher-encyclopedia?style=social" alt="Forks" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/GTX950L/philosopher-encyclopedia/issues">
+    <img src="https://img.shields.io/github/issues/GTX950L/philosopher-encyclopedia?color=red" alt="Issues" />
+  </a>
+  <a href="https://github.com/GTX950L/philosopher-encyclopedia/pulls">
+    <img src="https://img.shields.io/github/issues-pr/GTX950L/philosopher-encyclopedia?color=purple" alt="Pull Requests" />
+  </a>
+  <a href="https://github.com/GTX950L/philosopher-encyclopedia/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/GTX950L/philosopher-encyclopedia?color=blueviolet" alt="Contributors" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://visitor-badge.laobi.tech/badge?page_id=GTX950L.philosopher-encyclopedia">
+    <img src="https://visitor-badge.laobi.tech/badge?page_id=GTX950L.philosopher-encyclopedia" alt="Visitors" />
+  </a>
+</p>
 
 ## 📖 项目简介
 
@@ -52,7 +76,8 @@
 
 | 顺序 | 哲学家 | 为什么这样排 |
 |------|--------|-------------|
-| 17 | [苏格拉底](philosophers/socrates.md) | 古希腊道德哲学的奠基人，诘问法的开创者 |
+| 17 | [赫拉克利特](philosophers/heraclitus.md) | 古希腊 | 自然哲学、辩证法先驱 | ✅ 已完成 |
+| [苏格拉底](philosophers/socrates.md) | 古希腊道德哲学的奠基人，诘问法的开创者 |
 | 18 | [柏拉图](philosophers/plato.md) | 西方哲学奠基人，理念论与洞穴寓言 |
 | 19 | [亚里士多德](philosophers/aristotle.md) | 柏拉图的学生，逻辑学、德性伦理学开创者 |
 | 20 | [孔子](philosophers/confucius.md) | 中国哲学源头，仁礼之道 |
@@ -74,7 +99,7 @@
 
 ---
 
-## 📚 已收录哲学家（33 位）
+## 📚 已收录哲学家（34 位）
 
 > 点击各分类展开查看详情
 
@@ -100,7 +125,7 @@
 
 </details>
 
-### 古希腊哲学源头（3 位）
+### 古希腊哲学源头（4 位）
 
 <details>
 <summary>点击展开</summary>
@@ -199,7 +224,7 @@
 philosopher-encyclopedia/
 ├── README.md              # 项目说明
 ├── CONTRIBUTING.md        # 贡献指南
-├── philosophers/          # 哲学家条目目录（33 位）
+├── philosophers/          # 哲学家条目目录（34 位）
 │   ├── camus.md          # 阿尔贝·加缪
 │   ├── sartre.md         # 让-保罗·萨特
 │   └── ...               # 更多哲学家
