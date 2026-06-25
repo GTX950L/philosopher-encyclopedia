@@ -76,26 +76,26 @@
 
 | 顺序 | 哲学家 | 为什么这样排 |
 |------|--------|-------------|
-| 17 | [赫拉克利特](philosophers/heraclitus.md) | 古希腊 | 自然哲学、辩证法先驱 | ✅ 已完成 |
-| [苏格拉底](philosophers/socrates.md) | 古希腊道德哲学的奠基人，诘问法的开创者 |
-| 18 | [柏拉图](philosophers/plato.md) | 西方哲学奠基人，理念论与洞穴寓言 |
-| 19 | [亚里士多德](philosophers/aristotle.md) | 柏拉图的学生，逻辑学、德性伦理学开创者 |
-| 20 | [孔子](philosophers/confucius.md) | 中国哲学源头，仁礼之道 |
-| 21 | [老子](philosophers/laozi.md) | 道家创始人，道法自然与无为而治 |
-| 22 | [庄子](philosophers/zhuangzi.md) | 战国中期道家、齐物论 |
-| 23 | [笛卡尔](philosophers/descartes.md) | 近代哲学起点，"我思故我在" |
-| 24 | [大卫·休谟](philosophers/hume.md) | 经验主义集大成者，因果问题与归纳问题 |
-| 25 | [伊曼努尔·康德](philosophers/kant.md) | 德国古典哲学集大成者，三大批判 |
+| 17 | [赫拉克利特](philosophers/heraclitus.md) | 前苏格拉底哲学源头——"万物皆流"与逻各斯 |
+| 18 | [苏格拉底](philosophers/socrates.md) | 古希腊道德哲学的奠基人，诘问法的开创者 |
+| 19 | [柏拉图](philosophers/plato.md) | 西方哲学奠基人，理念论与洞穴寓言 |
+| 20 | [亚里士多德](philosophers/aristotle.md) | 柏拉图的学生，逻辑学、德性伦理学开创者 |
+| 21 | [孔子](philosophers/confucius.md) | 中国哲学源头，仁礼之道 |
+| 22 | [老子](philosophers/laozi.md) | 道家创始人，道法自然与无为而治 |
+| 23 | [庄子](philosophers/zhuangzi.md) | 战国中期道家、齐物论 |
+| 24 | [笛卡尔](philosophers/descartes.md) | 近代哲学起点，"我思故我在" |
+| 25 | [大卫·休谟](philosophers/hume.md) | 经验主义集大成者，因果问题与归纳问题 |
+| 26 | [伊曼努尔·康德](philosophers/kant.md) | 德国古典哲学集大成者，三大批判 |
 
 ### 第四阶：政治哲学与科学哲学
 
 | 顺序 | 哲学家 | 为什么这样排 |
 |------|--------|-------------|
-| 26 | [托马斯·霍布斯](philosophers/hobbes.md) | 社会契约论起点，自然状态与利维坦 |
-| 27 | [约翰·洛克](philosophers/locke.md) | 古典自由主义，自然权利与有限政府 |
-| 28 | [约翰·斯图尔特·密尔](philosophers/mill.md) | 功利主义与论自由，伤害原则 |
-| 29 | [约翰·杜威](philosophers/dewey.md) | 美国实用主义，民主作为生活方式 |
-| 30 | [卡尔·波普尔](philosophers/popper.md) | 批判理性主义，开放社会及其敌人 |
+| 27 | [托马斯·霍布斯](philosophers/hobbes.md) | 社会契约论起点，自然状态与利维坦 |
+| 28 | [约翰·洛克](philosophers/locke.md) | 古典自由主义，自然权利与有限政府 |
+| 29 | [约翰·斯图尔特·密尔](philosophers/mill.md) | 功利主义与论自由，伤害原则 |
+| 30 | [约翰·杜威](philosophers/dewey.md) | 美国实用主义，民主作为生活方式 |
+| 31 | [卡尔·波普尔](philosophers/popper.md) | 批判理性主义，开放社会及其敌人 |
 
 ---
 
