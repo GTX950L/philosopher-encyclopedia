@@ -1,0 +1,14 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16213e;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <text x="600" y="240" font-family="Arial,sans-serif" font-size="72" font-weight="bold" fill="white" text-anchor="middle">哲学家百科全书</text>
+  <text x="600" y="300" font-family="Arial,sans-serif" font-size="36" fill="#e94560" text-anchor="middle">Philosopher Encyclopedia</text>
+  <line x1="300" y1="330" x2="900" y2="330" stroke="#e94560" stroke-width="2" />
+  <text x="600" y="380" font-family="Arial,sans-serif" font-size="24" fill="#cccccc" text-anchor="middle">系统化介绍古今中外重要哲学家的开源项目</text>
+  <text x="600" y="540" font-family="Arial,sans-serif" font-size="20" fill="#999999" text-anchor="middle">34 位哲学家 · 持续更新 · MIT License</text>
+</svg>

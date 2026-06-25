@@ -1,0 +1,17 @@
+name: Validate Entries
+on:
+  push:
+    paths: ["philosophers/*.md"]
+  pull_request:
+    paths: ["philosophers/*.md"]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Check sections
+        run: |
+          for f in philosophers/*.md; do
+            echo "Checking "
+            grep -q "## 📸 基本信息" "" || (echo "Missing section in " && exit 1)
+          done
