@@ -1,6 +1,11 @@
 # 哲学家百科全书 (Philosopher Encyclopedia)
 
 <p align="center">
+  <img src="social-preview.png" width="640" alt="哲学家百科全书 · Philosopher Encyclopedia" />
+</p>
+
+
+<p align="center">
   <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License" />
   <img src="https://img.shields.io/badge/状态-持续更新-green.svg" alt="Status" />
   <img src="https://img.shields.io/badge/已收录-39位-orange.svg" alt="Philosophers" />
