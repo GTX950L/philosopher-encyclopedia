@@ -9,9 +9,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Check sections
+      - name: Check required sections
         run: |
+          # 标题含 emoji 变体选择符，需用正则跨过 emoji 匹配中文关键词
+          keywords=("基本信息" "生平时间线" "核心思想" "代表作品" "对后世的影响" "经典名言" "延伸阅读")
+          fail=0
           for f in philosophers/*.md; do
-            echo "Checking "
-            grep -q "## 📸 基本信息" "" || (echo "Missing section in " && exit 1)
+            for k in "${keywords[@]}"; do
+              if ! grep -Eq "^## .*${k}" "$f"; then
+                echo "Missing section containing '"${k}"' in $f"; fail=1
+              fi
+            done
           done
+          [ $fail -ne 0 ] && exit 1
+          echo "All entries have required sections OK"
