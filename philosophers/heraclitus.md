@@ -102,10 +102,54 @@
 
 ---
 
+## 🔗 相关哲学家
+
+- [老子](laozi.md) — 「道」的流变观与赫拉克利特「万物流转」形成跨越东西方的呼应
+- [柏拉图](plato.md) — 赫拉克利特的「流变」说深刻影响了柏拉图对感官世界的怀疑与理念论的提出
+- [亚里士多德](aristotle.md) — 在《形而上学》中记述并批评了赫拉克利特的「对立统一」与「火本原」
+- [尼采](nietzsche.md) — 「永恒轮回」可视为对赫拉克利特「流变」与「斗争」的继承与升华
+
 ## 📚 所有哲学家
 
-[← 返回首页](../README.md)
-
+- [汉娜·阿伦特](arendt.md)
+- [亚里士多德](aristotle.md)
+- [西蒙娜·德·波伏娃](beauvoir.md)
+- [阿尔贝·加缪](camus.md)
+- [孔子](confucius.md)
+- [雅克·德里达](derrida.md)
+- [勒内·笛卡尔](descartes.md)
+- [约翰·杜威](dewey.md)
+- [费奥多尔·陀思妥耶夫斯基](dostoevsky.md)
+- [米歇尔·福柯](foucault.md)
+- [戈特洛布·弗雷格](frege.md)
+- [埃里希·弗洛姆](fromm.md)
+- [格奥尔格·威廉·弗里德里希·黑格尔](hegel.md)
+- [马丁·海德格尔](heidegger.md)
+**赫拉克利特** ← 当前页
+- [托马斯·霍布斯](hobbes.md)
+- [大卫·休谟](hume.md)
+- [埃德蒙德·胡塞尔](husserl.md)
+- [卡尔·雅斯贝尔斯](jaspers.md)
+- [伊曼努尔·康德](kant.md)
+- [索伦·克尔凯郭尔](kierkegaard.md)
+- [老子](laozi.md)
+- [戈特弗里德·威廉·莱布尼茨](leibniz.md)
+- [约翰·洛克](locke.md)
+- [卡尔·马克思](marx.md)
+- [莫里斯·梅洛-庞蒂](merleau-ponty.md)
+- [约翰·斯图尔特·密尔](mill.md)
+- [墨子](mozi.md)
+- [弗里德里希·尼采](nietzsche.md)
+- [柏拉图](plato.md)
+- [卡尔·波普尔](popper.md)
+- [约翰·罗尔斯](rawls.md)
+- [伯特兰·罗素](russell.md)
+- [让-保罗·萨特](sartre.md)
+- [亚瑟·叔本华](schopenhauer.md)
+- [苏格拉底](socrates.md)
+- [巴鲁赫·斯宾诺莎](spinoza.md)
+- [路德维希·维特根斯坦](wittgenstein.md)
+- [庄子（庄周）](zhuangzi.md)
 ⬆️ **[回到顶部](#top)**
 
 **最后更新**: 2026年6月  
