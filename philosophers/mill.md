@@ -5,7 +5,6 @@
 > *"It is better to be a human being dissatisfied than a pig satisfied; better to be Socrates dissatisfied than a fool satisfied."*
 
 ---
-
 ## 📑 目录
 
 - [基本信息](#基本信息)
@@ -227,7 +226,7 @@
 - [波普尔](popper.md) — 开放社会：密尔的"思想自由"与波普尔的"批判理性"
 - [罗尔斯](rawls.md) — 对功利主义的批判（《正义论》）
 - [波伏娃](beauvoir.md) — 女权主义：密尔（1869）与波伏娃（1949）的跨越80年的对话
-- [边沁](bentham.md) — 功利主义创始人，密尔的思想导师（尚未收录）
+- [边沁](bentham.md) — 功利主义创始人，密尔的思想导师
 
 ---
 
@@ -241,6 +240,7 @@
 - [汉娜·阿伦特](arendt.md)
 - [亚里士多德](aristotle.md)
 - [西蒙娜·德·波伏娃](beauvoir.md)
+- [杰里米·边沁](bentham.md)
 - [阿尔贝·加缪](camus.md)
 - [孔子](confucius.md)
 - [雅克·德里达](derrida.md)
@@ -263,6 +263,7 @@
 - [戈特弗里德·威廉·莱布尼茨](leibniz.md)
 - [约翰·洛克](locke.md)
 - [卡尔·马克思](marx.md)
+- [孟子](mencius.md)
 - [莫里斯·梅洛-庞蒂](merleau-ponty.md)
 **约翰·斯图尔特·密尔** ← 当前页
 - [墨子](mozi.md)
@@ -270,6 +271,7 @@
 - [柏拉图](plato.md)
 - [卡尔·波普尔](popper.md)
 - [约翰·罗尔斯](rawls.md)
+- [让-雅克·卢梭](rousseau.md)
 - [伯特兰·罗素](russell.md)
 - [让-保罗·萨特](sartre.md)
 - [亚瑟·叔本华](schopenhauer.md)

@@ -1,0 +1,114 @@
+site_name: 哲学家百科全书
+site_description: 系统性介绍古今中外重要哲学家的生平、思想、作品和对后世影响的开源项目
+site_url: https://GTX950L.github.io/philosopher-encyclopedia/
+repo_url: https://github.com/GTX950L/philosopher-encyclopedia
+repo_name: GTX950L/philosopher-encyclopedia
+docs_dir: .
+edit_uri: edit/main/
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: 切换暗色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: 切换亮色模式
+
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - admonition
+  - footnotes
+  - toc:
+      permalink: true
+
+plugins:
+  - search:
+      lang: zh
+  - git-revision-date-localized:
+      type: date
+  - minify:
+      minify_html: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/GTX950L/philosopher-encyclopedia
+
+nav:
+  - 首页: README.md
+  - 哲学家:
+      - 阿尔贝·加缪: philosophers/camus.md
+      - 让-保罗·萨特: philosophers/sartre.md
+      - 索伦·克尔凯郭尔: philosophers/kierkegaard.md
+      - 弗里德里希·尼采: philosophers/nietzsche.md
+      - 亚瑟·叔本华: philosophers/schopenhauer.md
+      - 埃德蒙德·胡塞尔: philosophers/husserl.md
+      - 马丁·海德格尔: philosophers/heidegger.md
+      - 西蒙娜·德·波伏娃: philosophers/beauvoir.md
+      - 莫里斯·梅洛-庞蒂: philosophers/merleau-ponty.md
+      - 卡尔·雅斯贝尔斯: philosophers/jaspers.md
+      - 费奥多尔·陀思妥耶夫斯基: philosophers/dostoevsky.md
+      - 格奥尔格·威廉·弗里德里希·黑格尔: philosophers/hegel.md
+      - 卡尔·马克思: philosophers/marx.md
+      - 汉娜·阿伦特: philosophers/arendt.md
+      - 埃里希·弗洛姆: philosophers/fromm.md
+      - 米歇尔·福柯: philosophers/foucault.md
+      - 雅克·德里达: philosophers/derrida.md
+      - 伯特兰·罗素: philosophers/russell.md
+      - 路德维希·维特根斯坦: philosophers/wittgenstein.md
+      - 让-雅克·卢梭: philosophers/rousseau.md
+      - 杰里米·边沁: philosophers/bentham.md
+      - 孟子: philosophers/mencius.md
+      - 老子: philosophers/laozi.md
+      - 庄子: philosophers/zhuangzi.md
+      - 孔子: philosophers/confucius.md
+      - 墨子: philosophers/mozi.md
+      - 赫拉克利特: philosophers/heraclitus.md
+      - 苏格拉底: philosophers/socrates.md
+      - 柏拉图: philosophers/plato.md
+      - 亚里士多德: philosophers/aristotle.md
+      - 勒内·笛卡尔: philosophers/descartes.md
+      - 大卫·休谟: philosophers/hume.md
+      - 伊曼努尔·康德: philosophers/kant.md
+      - 托马斯·霍布斯: philosophers/hobbes.md
+      - 约翰·洛克: philosophers/locke.md
+      - 约翰·斯图尔特·密尔: philosophers/mill.md
+      - 约翰·杜威: philosophers/dewey.md
+      - 卡尔·波普尔: philosophers/popper.md
+      - 戈特弗里德·威廉·莱布尼茨: philosophers/leibniz.md
+      - 约翰·罗尔斯: philosophers/rawls.md
+      - 巴鲁赫·斯宾诺莎: philosophers/spinoza.md
+      - 戈特洛布·弗雷格: philosophers/frege.md
+  - 参考:
+      - 哲学流派概览: docs/schools.md
+      - 哲学史时间线: docs/timeline.md
+      - 条目模板: template.md
+      - 贡献指南: CONTRIBUTING.md

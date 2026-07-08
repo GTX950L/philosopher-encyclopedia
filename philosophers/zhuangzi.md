@@ -5,7 +5,19 @@
 > *"In the northern ocean there is a fish, called the K'un. I do not know how many thousand li in size it is."*
 
 ---
+## 📑 目录
 
+- [📸 基本信息](#基本信息)
+- [📅 生平时间线](#生平时间线)
+- [💡 核心思想](#核心思想)
+- [📚 代表作品](#代表作品)
+- [🌍 对后世的影响](#对后世的影响)
+- [💬 经典名言](#经典名言)
+- [📖 延伸阅读](#延伸阅读)
+- [📝 编者注](#编者注)
+- [🔗 相关哲学家](#相关哲学家)
+
+---
 ## 📸 基本信息
 
 | 项目 | 信息 |
@@ -158,6 +170,7 @@
 - [汉娜·阿伦特](arendt.md)
 - [亚里士多德](aristotle.md)
 - [西蒙娜·德·波伏娃](beauvoir.md)
+- [杰里米·边沁](bentham.md)
 - [阿尔贝·加缪](camus.md)
 - [孔子](confucius.md)
 - [雅克·德里达](derrida.md)
@@ -180,6 +193,7 @@
 - [戈特弗里德·威廉·莱布尼茨](leibniz.md)
 - [约翰·洛克](locke.md)
 - [卡尔·马克思](marx.md)
+- [孟子](mencius.md)
 - [莫里斯·梅洛-庞蒂](merleau-ponty.md)
 - [约翰·斯图尔特·密尔](mill.md)
 - [墨子](mozi.md)
@@ -187,6 +201,7 @@
 - [柏拉图](plato.md)
 - [卡尔·波普尔](popper.md)
 - [约翰·罗尔斯](rawls.md)
+- [让-雅克·卢梭](rousseau.md)
 - [伯特兰·罗素](russell.md)
 - [让-保罗·萨特](sartre.md)
 - [亚瑟·叔本华](schopenhauer.md)
@@ -195,6 +210,6 @@
 - [路德维希·维特根斯坦](wittgenstein.md)
 **庄子（庄周）** ← 当前页
 ⬆️ **[回到顶部](#top)**
-**最后更新**: 2026年6月  
+**最后更新**: 2026年7月  
 **贡献者**: GTX950L  
 **License**: MIT

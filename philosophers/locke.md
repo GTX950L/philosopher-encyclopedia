@@ -5,7 +5,6 @@
 > *"The great end of government is the preservation of property."*
 
 ---
-
 ## 📑 目录
 
 - [基本信息](#基本信息)
@@ -238,7 +237,7 @@
 - [康德](kant.md) — "定言命令"与洛克"自然权利"的对话
 - [密尔](mill.md) — 古典自由主义的集大成者：洛克 → 密尔
 - [马克思](marx.md) — 对洛克"财产权"理论的批判
-- [卢梭](rousseau.md) — 社会契约论的"民主"版本（尚未收录）
+- [卢梭](rousseau.md) — 社会契约论的"民主"版本
 
 ---
 
@@ -252,6 +251,7 @@
 - [汉娜·阿伦特](arendt.md)
 - [亚里士多德](aristotle.md)
 - [西蒙娜·德·波伏娃](beauvoir.md)
+- [杰里米·边沁](bentham.md)
 - [阿尔贝·加缪](camus.md)
 - [孔子](confucius.md)
 - [雅克·德里达](derrida.md)
@@ -274,6 +274,7 @@
 - [戈特弗里德·威廉·莱布尼茨](leibniz.md)
 **约翰·洛克** ← 当前页
 - [卡尔·马克思](marx.md)
+- [孟子](mencius.md)
 - [莫里斯·梅洛-庞蒂](merleau-ponty.md)
 - [约翰·斯图尔特·密尔](mill.md)
 - [墨子](mozi.md)
@@ -281,6 +282,7 @@
 - [柏拉图](plato.md)
 - [卡尔·波普尔](popper.md)
 - [约翰·罗尔斯](rawls.md)
+- [让-雅克·卢梭](rousseau.md)
 - [伯特兰·罗素](russell.md)
 - [让-保罗·萨特](sartre.md)
 - [亚瑟·叔本华](schopenhauer.md)
@@ -289,6 +291,6 @@
 - [路德维希·维特根斯坦](wittgenstein.md)
 - [庄子（庄周）](zhuangzi.md)
 ⬆️ **[回到顶部](#top)**
-**最后更新**: 2026年6月
+**最后更新**: 2026年7月
 **贡献者**: GTX950L
 **License**: MIT

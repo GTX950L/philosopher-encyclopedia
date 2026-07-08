@@ -77,6 +77,12 @@ def main():
     t = re.sub(r"\d+位哲学家", f"{total}位哲学家", t)
     open(timeline, "w", encoding="utf-8").write(t)
 
+    # ---- 3) 同步 mkdocs.yml ----
+    mkdocs = os.path.join(ROOT, "mkdocs.yml")
+    t = open(mkdocs, encoding="utf-8").read()
+    t = re.sub(r"已收录-\d+位", f"已收录-{total}位", t)
+    open(mkdocs, "w", encoding="utf-8").write(t)
+
     print(f"  计数已同步为 {total}")
     print("DONE")
 

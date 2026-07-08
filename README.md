@@ -8,7 +8,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License" />
   <img src="https://img.shields.io/badge/状态-持续更新-green.svg" alt="Status" />
-  <img src="https://img.shields.io/badge/已收录-39位-orange.svg" alt="Philosophers" />
+  <img src="https://img.shields.io/badge/已收录-42位-orange.svg" alt="Philosophers" />
   <img src="https://img.shields.io/github/stars/GTX950L/philosopher-encyclopedia?style=social" alt="Stars" />
   <img src="https://img.shields.io/github/forks/GTX950L/philosopher-encyclopedia?style=social" alt="Forks" />
 </p>
@@ -129,7 +129,7 @@
 philosopher-encyclopedia/
 ├── README.md              # 项目说明
 ├── CONTRIBUTING.md        # 贡献指南
-├── philosophers/          # 哲学家条目目录（39 位）
+├── philosophers/          # 哲学家条目目录（42 位）
 │   ├── camus.md          # 阿尔贝·加缪
 │   ├── sartre.md         # 让-保罗·萨特
 │   └── ...               # 更多哲学家

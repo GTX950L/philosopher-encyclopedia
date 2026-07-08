@@ -8,7 +8,7 @@ jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Check required sections
         run: |
           # 标题含 emoji 变体选择符，需用正则跨过 emoji 匹配中文关键词
