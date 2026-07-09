@@ -89,12 +89,13 @@
 | 20 | [老子](philosophers/laozi.md) | 中国哲学源头——'道'的概念，与赫拉克利特的'流变'思想遥相呼应 |
 | 21 | [庄子](philosophers/zhuangzi.md) | 道家另一位高峰——'齐物论'与相对主义，轻松好读 |
 | 22 | [孔子](philosophers/confucius.md) | 中国哲学另一极——'仁'与伦理实践，和西方本体论形成对照 |
-| 23 | [赫拉克利特](philosophers/heraclitus.md) | 古希腊变化哲学——'人不能两次踏入同一条河流'，与老子'道'有相通之处 |
-| 24 | [苏格拉底](philosophers/socrates.md) | 古希腊哲学起点——'未经省察的人生不值得过'，助产术方法论 |
-| 25 | [柏拉图](philosophers/plato.md) | 理念论——苏格拉底的弟子，西方哲学正统之源 |
-| 26 | [亚里士多德](philosophers/aristotle.md) | 逻辑学之父——柏拉图的学生，创立了形式逻辑与科学方法论 |
-| 27 | [勒内·笛卡尔](philosophers/descartes.md) | 近代哲学之父——'我思故我在'，理性主义奠基人 |
-| 28 | [大卫·休谟](philosophers/hume.md) | 经验主义高峰——康德称其'打破了我的独断论' |
+| 23 | [孟子](philosophers/mencius.md) | 儒家第二号——'性善论'与仁政，承接孔子并发展出心性论 |
+| 24 | [赫拉克利特](philosophers/heraclitus.md) | 古希腊变化哲学——'人不能两次踏入同一条河流'，与老子'道'有相通之处 |
+| 25 | [苏格拉底](philosophers/socrates.md) | 古希腊哲学起点——'未经省察的人生不值得过'，助产术方法论 |
+| 26 | [柏拉图](philosophers/plato.md) | 理念论——苏格拉底的弟子，西方哲学正统之源 |
+| 27 | [亚里士多德](philosophers/aristotle.md) | 逻辑学之父——柏拉图的学生，创立了形式逻辑与科学方法论 |
+| 28 | [勒内·笛卡尔](philosophers/descartes.md) | 近代哲学之父——'我思故我在'，理性主义奠基人 |
+| 29 | [大卫·休谟](philosophers/hume.md) | 经验主义高峰——康德称其'打破了我的独断论' |
 
 ---
 
@@ -102,14 +103,16 @@
 
 | 顺序 | 哲学家 | 为什么这样排 |
 |------|--------|-------------|
-| 29 | [伊曼努尔·康德](philosophers/kant.md) | 哲学转折——'哥白尼式革命'，连接古代与现代哲学的枢纽 |
-| 30 | [托马斯·霍布斯](philosophers/hobbes.md) | 社会契约论起点，自然状态与利维坦 |
-| 31 | [约翰·洛克](philosophers/locke.md) | 古典自由主义，自然权利与有限政府 |
-| 32 | [约翰·斯图尔特·密尔](philosophers/mill.md) | 功利主义与论自由，伤害原则 |
-| 33 | [约翰·杜威](philosophers/dewey.md) | 美国实用主义，民主作为生活方式 |
-| 34 | [卡尔·波普尔](philosophers/popper.md) | 批判理性主义，开放社会及其敌人 |
-| 35 | [戈特弗里德·莱布尼茨](philosophers/leibniz.md) | 理性主义双雄之一，单子论与充足理由律，连接康德与近代科学 |
-| 36 | [约翰·罗尔斯](philosophers/rawls.md) | 当代政治哲学里程碑——《正义论》，康德主义自由主义的现代形态 |
+| 30 | [伊曼努尔·康德](philosophers/kant.md) | 哲学转折——'哥白尼式革命'，连接古代与现代哲学的枢纽 |
+| 31 | [托马斯·霍布斯](philosophers/hobbes.md) | 社会契约论起点，自然状态与利维坦 |
+| 32 | [约翰·洛克](philosophers/locke.md) | 古典自由主义，自然权利与有限政府 |
+| 33 | [让-雅克·卢梭](philosophers/rousseau.md) | 社会契约论另一极——'人生而自由，却处处身戴枷锁'，人民主权与公意 |
+| 34 | [杰里米·边沁](philosophers/bentham.md) | 功利主义创始人——'最大多数人的最大幸福'，密尔的思想源头 |
+| 35 | [约翰·斯图尔特·密尔](philosophers/mill.md) | 功利主义与论自由，伤害原则 |
+| 36 | [约翰·杜威](philosophers/dewey.md) | 美国实用主义，民主作为生活方式 |
+| 37 | [卡尔·波普尔](philosophers/popper.md) | 批判理性主义，开放社会及其敌人 |
+| 38 | [戈特弗里德·莱布尼茨](philosophers/leibniz.md) | 理性主义双雄之一，单子论与充足理由律，连接康德与近代科学 |
+| 39 | [约翰·罗尔斯](philosophers/rawls.md) | 当代政治哲学里程碑——《正义论》，康德主义自由主义的现代形态 |
 
 ---
 
@@ -117,9 +120,9 @@
 
 | 顺序 | 哲学家 | 为什么这样排 |
 |------|--------|-------------|
-| 37 | [墨翟（墨子）](philosophers/mozi.md) | 中国逻辑与功利主义思想源头，「兼爱」「非攻」与儒家形成对照 |
-| 38 | [巴鲁赫·斯宾诺莎](philosophers/spinoza.md) | 理性主义顶峰，实体一元论，深刻影响启蒙与德国观念论 |
-| 39 | [戈特洛布·弗雷格](philosophers/frege.md) | 分析哲学与数理逻辑之父，语言哲学的现代起点 |
+| 40 | [墨翟（墨子）](philosophers/mozi.md) | 中国逻辑与功利主义思想源头，「兼爱」「非攻」与儒家形成对照 |
+| 41 | [巴鲁赫·斯宾诺莎](philosophers/spinoza.md) | 理性主义顶峰，实体一元论，深刻影响启蒙与德国观念论 |
+| 42 | [戈特洛布·弗雷格](philosophers/frege.md) | 分析哲学与数理逻辑之父，语言哲学的现代起点 |
 
 ---
 

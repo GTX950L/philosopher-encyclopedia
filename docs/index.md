@@ -4,13 +4,13 @@
 
 ---
 
-📖 **[查看 README →](README.md)**
+📖 **[查看 README →](../README.md)**
 
-👤 **[浏览所有哲学家 →](philosophers/camus.md)**
+👤 **[浏览所有哲学家 →](../philosophers/index.md)**
 
-🗺️ **[哲学流派概览 →](docs/schools.md)**
+🗺️ **[哲学流派概览 →](schools.md)**
 
-📅 **[哲学史时间线 →](docs/timeline.md)**
+📅 **[哲学史时间线 →](timeline.md)**
 
 ---
 

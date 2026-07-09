@@ -1,9 +1,17 @@
 name: Validate Entries
 on:
   push:
-    paths: ["philosophers/*.md"]
+    paths:
+      - "philosophers/*.md"
+      - "docs/*.md"
+      - "README.md"
+      - "mkdocs.yml"
   pull_request:
-    paths: ["philosophers/*.md"]
+    paths:
+      - "philosophers/*.md"
+      - "docs/*.md"
+      - "README.md"
+      - "mkdocs.yml"
 jobs:
   validate:
     runs-on: ubuntu-latest
@@ -15,6 +23,8 @@ jobs:
           keywords=("基本信息" "生平时间线" "核心思想" "代表作品" "对后世的影响" "经典名言" "延伸阅读")
           fail=0
           for f in philosophers/*.md; do
+            # 跳过总览索引页（非哲学家条目）
+            [ "$(basename "$f")" = "index.md" ] && continue
             for k in "${keywords[@]}"; do
               if ! grep -Eq "^## .*${k}" "$f"; then
                 echo "Missing section containing '"${k}"' in $f"; fail=1
@@ -23,3 +33,32 @@ jobs:
           done
           [ $fail -ne 0 ] && exit 1
           echo "All entries have required sections OK"
+
+  check-internal-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check internal philosopher links
+        run: |
+          # 扫描所有 markdown 中的 philosophers/xxx.md 链接：
+          # 目标文件不存在且该行未标注「尚未收录」则失败。
+          # 这样既能捕获改名导致的断链，也能捕获忘标「尚未收录」的悬空链接。
+          set +e
+          fail=0
+          while IFS= read -r file; do
+            while IFS= read -r line; do
+              for link in $(echo "$line" | grep -oE "philosophers/[a-zA-Z0-9_-]+\.md"); do
+                if [ ! -f "$link" ]; then
+                  if ! echo "$line" | grep -q "尚未收录"; then
+                    echo "::error file=$file::断链 $link （未标注「尚未收录」）"
+                    fail=1
+                  fi
+                fi
+              done
+            done < "$file"
+          done < <(find . -name "*.md" -not -path "./site/*" -not -path "./.git/*")
+          if [ $fail -ne 0 ]; then
+            echo "发现内部断链，请补全条目或在链接后标注「尚未收录」"
+            exit 1
+          fi
+          echo "All internal philosopher links OK"

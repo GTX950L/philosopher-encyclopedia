@@ -65,6 +65,7 @@ extra:
 nav:
   - 首页: README.md
   - 哲学家:
+      - 总览: philosophers/index.md
       - 阿尔贝·加缪: philosophers/camus.md
       - 让-保罗·萨特: philosophers/sartre.md
       - 索伦·克尔凯郭尔: philosophers/kierkegaard.md
