@@ -6,6 +6,6 @@ mkdocs-material>=9.7.6
 
 # 插件
 mkdocs-git-revision-date-localized-plugin>=1.5.3
-mkdocs-minify-plugin>=0.7
+mkdocs-minify-plugin>=0.8.0
 mkdocs-redirects>=1.2.3        # 文件改名时自动生成跳转
 mkdocs-tags-plugin>=0.7      # 按流派/时代标签分类
