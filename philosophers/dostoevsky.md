@@ -273,7 +273,7 @@
 - [苏格拉底](socrates.md)
 - [巴鲁赫·斯宾诺莎](spinoza.md)
 - [路德维希·维特根斯坦](wittgenstein.md)
-- [庄子（庄周）](zhuangzi.md)
+- [庄子](zhuangzi.md)
 ⬆️ **[回到顶部](#top)**
 **最后更新**: 2026年7月
 **贡献者**: GTX950L
