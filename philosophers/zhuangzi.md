@@ -1,4 +1,4 @@
-# 庄子（庄周）(Zhuangzi / Chuang Tzu)
+# 庄子 (Zhuangzi / Chuang Tzu)
 <a id="top"></a>
 
 > "北冥有鱼，其名为鲲。鲲之大，不知其几千里也。"  

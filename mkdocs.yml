@@ -74,6 +74,7 @@ nav:
   - 首页: README.md
   - 哲学家:
       - 总览: philosophers/index.md
+      # 第一阶：存在主义入门
       - 阿尔贝·加缪: philosophers/camus.md
       - 让-保罗·萨特: philosophers/sartre.md
       - 索伦·克尔凯郭尔: philosophers/kierkegaard.md
@@ -83,6 +84,7 @@ nav:
       - 马丁·海德格尔: philosophers/heidegger.md
       - 西蒙娜·德·波伏娃: philosophers/beauvoir.md
       - 莫里斯·梅洛-庞蒂: philosophers/merleau-ponty.md
+      # 第二阶：扩展与深化
       - 卡尔·雅斯贝尔斯: philosophers/jaspers.md
       - 费奥多尔·陀思妥耶夫斯基: philosophers/dostoevsky.md
       - 格奥尔格·威廉·弗里德里希·黑格尔: philosophers/hegel.md
@@ -93,27 +95,30 @@ nav:
       - 雅克·德里达: philosophers/derrida.md
       - 伯特兰·罗素: philosophers/russell.md
       - 路德维希·维特根斯坦: philosophers/wittgenstein.md
-      - 让-雅克·卢梭: philosophers/rousseau.md
-      - 杰里米·边沁: philosophers/bentham.md
-      - 孟子: philosophers/mencius.md
+      # 第三阶：古希腊、中国与近代哲学源头
       - 老子: philosophers/laozi.md
       - 庄子: philosophers/zhuangzi.md
       - 孔子: philosophers/confucius.md
-      - 墨子: philosophers/mozi.md
+      - 孟子: philosophers/mencius.md
       - 赫拉克利特: philosophers/heraclitus.md
       - 苏格拉底: philosophers/socrates.md
       - 柏拉图: philosophers/plato.md
       - 亚里士多德: philosophers/aristotle.md
       - 勒内·笛卡尔: philosophers/descartes.md
       - 大卫·休谟: philosophers/hume.md
+      # 第四阶：从近代政治哲学到现代开放社会
       - 伊曼努尔·康德: philosophers/kant.md
       - 托马斯·霍布斯: philosophers/hobbes.md
       - 约翰·洛克: philosophers/locke.md
+      - 让-雅克·卢梭: philosophers/rousseau.md
+      - 杰里米·边沁: philosophers/bentham.md
       - 约翰·斯图尔特·密尔: philosophers/mill.md
       - 约翰·杜威: philosophers/dewey.md
       - 卡尔·波普尔: philosophers/popper.md
       - 戈特弗里德·威廉·莱布尼茨: philosophers/leibniz.md
       - 约翰·罗尔斯: philosophers/rawls.md
+      # 第五阶：中国墨家、理性主义顶峰与分析哲学发端
+      - 墨子: philosophers/mozi.md
       - 巴鲁赫·斯宾诺莎: philosophers/spinoza.md
       - 戈特洛布·弗雷格: philosophers/frege.md
   - 参考:
