@@ -6,7 +6,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Lychee link check
-        uses: lycheeverse/lychee-action@v1
+        uses: lycheeverse/lychee-action@v2
         with:
           # 只检查外链；内部 .md 链接（指向尚未撰写的条目）不在本工作流范围内。
           # 学术站点（斯坦福百科、ctext 等）偶发超时，故 fail=false 让 CI 不误红，
