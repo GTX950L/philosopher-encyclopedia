@@ -18,9 +18,10 @@ import re
 import glob
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-PHIL = os.path.join(ROOT, "philosophers")
+CONTENT = os.path.join(ROOT, "content")
+PHIL = os.path.join(CONTENT, "philosophers")
 
-# 匹配 [显示名](philosophers/xxx.md) 中的文件名
+# 匹配 [显示名](philosophers/xxx.md) 中的文件名（注意：links以philosophers/开头，实际文件在content/philosophers/）
 LINK_RE = re.compile(r"philosophers/([\w][\w-]*)\.md")
 
 
@@ -36,9 +37,9 @@ def check_consistency(entries):
     """校验文档中哲学家链接与目录文件的一致性，打印差异。"""
     names = {f for f, _ in entries}
     docs = {
-        "README.md": os.path.join(ROOT, "README.md"),
-        "docs/timeline.md": os.path.join(ROOT, "docs", "timeline.md"),
-        "docs/schools.md": os.path.join(ROOT, "docs", "schools.md"),
+        "README.md": os.path.join(CONTENT, "README.md"),
+        "docs/timeline.md": os.path.join(CONTENT, "docs", "timeline.md"),
+        "docs/schools.md": os.path.join(CONTENT, "docs", "schools.md"),
     }
     print("\n=== 一致性校验 ===")
     all_ok = True
@@ -100,18 +101,18 @@ def main():
     print(f"  已重建 {rebuilt} 个导航列表")
 
     # ---- 2) 同步计数 ----
-    readme = os.path.join(ROOT, "README.md")
+    readme = os.path.join(CONTENT, "README.md")
     t = open(readme, encoding="utf-8").read()
     t = re.sub(r"已收录-\d+位", f"已收录-{total}位", t)
     t = re.sub(r"哲学家条目目录（\d+ 位）", f"哲学家条目目录（{total} 位）", t)
     open(readme, "w", encoding="utf-8").write(t)
 
-    schools = os.path.join(ROOT, "docs", "schools.md")
+    schools = os.path.join(CONTENT, "docs", "schools.md")
     t = open(schools, encoding="utf-8").read()
     t = re.sub(r"本项目\d+位哲学家", f"本项目{total}位哲学家", t)
     open(schools, "w", encoding="utf-8").write(t)
 
-    timeline = os.path.join(ROOT, "docs", "timeline.md")
+    timeline = os.path.join(CONTENT, "docs", "timeline.md")
     t = open(timeline, encoding="utf-8").read()
     t = re.sub(r"\d+位哲学家", f"{total}位哲学家", t)
     open(timeline, "w", encoding="utf-8").write(t)

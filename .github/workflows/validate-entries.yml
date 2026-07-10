@@ -2,15 +2,15 @@ name: Validate Entries
 on:
   push:
     paths:
-      - "philosophers/*.md"
-      - "docs/*.md"
-      - "README.md"
+      - "content/philosophers/*.md"
+      - "content/docs/*.md"
+      - "content/README.md"
       - "mkdocs.yml"
   pull_request:
     paths:
-      - "philosophers/*.md"
-      - "docs/*.md"
-      - "README.md"
+      - "content/philosophers/*.md"
+      - "content/docs/*.md"
+      - "content/README.md"
       - "mkdocs.yml"
 jobs:
   validate:
@@ -27,7 +27,7 @@ jobs:
         run: |
           keywords=("基本信息" "生平时间线" "核心思想" "代表作品" "对后世的影响" "经典名言" "延伸阅读")
           fail=0
-          for f in philosophers/*.md; do
+          for f in content/philosophers/*.md; do
             [ "$(basename "$f")" = "index.md" ] && continue
             for k in "${keywords[@]}"; do
               if ! grep -Eq "^## .*${k}" "$f"; then
@@ -59,7 +59,7 @@ jobs:
           while IFS= read -r file; do
             while IFS= read -r line; do
               for link in $(echo "$line" | grep -oE "philosophers/[a-zA-Z0-9_-]+\.md"); do
-                if [ ! -f "$link" ]; then
+                if [ ! -f "content/$link" ]; then
                   if ! echo "$line" | grep -q "尚未收录"; then
                     echo "::error file=$file::断链 $link （未标注「尚未收录」）"
                     fail=1
