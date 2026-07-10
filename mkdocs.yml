@@ -4,6 +4,7 @@ site_url: https://GTX950L.github.io/philosopher-encyclopedia/
 repo_url: https://github.com/GTX950L/philosopher-encyclopedia
 repo_name: GTX950L/philosopher-encyclopedia
 docs_dir: .
+site_dir: ../_site
 edit_uri: edit/main/
 
 theme:
