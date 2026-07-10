@@ -1,4 +1,9 @@
 # 哲学家百科全书 - GitHub Pages 配置
+# 
+# ⚠️ 注意：本站点主要通过 MkDocs (mkdocs.yml) 构建并部署到 GitHub Pages。
+# 此 _config.yml 仅作为 Jekyll 回退方案，用于 GitHub Pages 的默认渲染。
+# 如需修改站点结构，请编辑 mkdocs.yml 而非本文件。
+#
 title: 哲学家百科全书
 description: 系统性介绍古今中外重要哲学家的生平、思想、作品和对后世影响的开源项目
 url: https://GTX950L.github.io/philosopher-encyclopedia

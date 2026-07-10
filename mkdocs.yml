@@ -14,6 +14,7 @@ theme:
     - navigation.tracking
     - navigation.expand
     - navigation.top
+    - navigation.indexes
     - search.suggest
     - search.highlight
     - content.code.copy
@@ -56,11 +57,18 @@ plugins:
       type: date
   - minify:
       minify_html: true
+  - tags:
+      tags_file: tags.md
+  - redirects:
+      redirect_maps: {}
 
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/GTX950L/philosopher-encyclopedia
+
+extra_css:
+  - stylesheets/extra.css
 
 nav:
   - 首页: README.md
@@ -111,5 +119,6 @@ nav:
   - 参考:
       - 哲学流派概览: docs/schools.md
       - 哲学史时间线: docs/timeline.md
+      - 标签分类: tags.md
       - 条目模板: template.md
       - 贡献指南: CONTRIBUTING.md

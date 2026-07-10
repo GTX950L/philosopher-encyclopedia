@@ -1,0 +1,30 @@
+/* 哲学家百科全书 - 自定义样式 */
+
+/* 基本信息表格优化 */
+.md-typeset table:not([class]) th:first-child {
+  white-space: nowrap;
+  width: 25%;
+}
+
+/* 名言引用区块 */
+blockquote {
+  border-left: 4px solid var(--md-primary-fg-color);
+  padding-left: 1em;
+  margin: 1em 0;
+}
+
+/* 标签云样式优化 */
+.md-tags {
+  margin: 0.5em 0;
+}
+
+.md-tag {
+  font-size: 0.75rem;
+}
+
+/* 时间线表格在小屏上的可读性 */
+@media screen and (max-width: 76.25em) {
+  .md-typeset table:not([class]) {
+    font-size: 0.8rem;
+  }
+}

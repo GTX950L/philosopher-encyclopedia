@@ -17,13 +17,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Install dependencies
+        run: pip install -r requirements.txt
       - name: Check required sections
         run: |
-          # 标题含 emoji 变体选择符，需用正则跨过 emoji 匹配中文关键词
           keywords=("基本信息" "生平时间线" "核心思想" "代表作品" "对后世的影响" "经典名言" "延伸阅读")
           fail=0
           for f in philosophers/*.md; do
-            # 跳过总览索引页（非哲学家条目）
             [ "$(basename "$f")" = "index.md" ] && continue
             for k in "${keywords[@]}"; do
               if ! grep -Eq "^## .*${k}" "$f"; then
@@ -33,6 +37,16 @@ jobs:
           done
           [ $fail -ne 0 ] && exit 1
           echo "All entries have required sections OK"
+      - name: Run gen_index.py to validate consistency
+        run: |
+          python scripts/gen_index.py
+          # 检查有无未提交的更改（gen_index会更新导航列表和计数）
+          if ! git diff --quiet; then
+            echo "::error::gen_index.py 产生了更改——请先在本地运行 python scripts/gen_index.py 再提交"
+            git diff --stat
+            exit 1
+          fi
+          echo "Index and navigation are consistent OK"
 
   check-internal-links:
     runs-on: ubuntu-latest
@@ -40,9 +54,6 @@ jobs:
       - uses: actions/checkout@v4
       - name: Check internal philosopher links
         run: |
-          # 扫描所有 markdown 中的 philosophers/xxx.md 链接：
-          # 目标文件不存在且该行未标注「尚未收录」则失败。
-          # 这样既能捕获改名导致的断链，也能捕获忘标「尚未收录」的悬空链接。
           set +e
           fail=0
           while IFS= read -r file; do

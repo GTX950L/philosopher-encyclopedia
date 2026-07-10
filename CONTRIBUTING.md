@@ -6,6 +6,60 @@
 
 ---
 
+## 🚀 本地开发环境搭建
+
+### 前置要求
+- Python 3.9+
+- Git
+
+### 步骤
+
+```bash
+# 1. Fork 本仓库
+# 2. 克隆你的 Fork
+git clone https://github.com/YOUR_USERNAME/philosopher-encyclopedia.git
+cd philosopher-encyclopedia
+
+# 3. 安装依赖
+pip install -r requirements.txt
+
+# 4. 本地预览站点
+mkdocs serve
+# 访问 http://127.0.0.1:8000 查看效果
+
+# 5. 添加或修改哲学家条目后，重建导航索引
+python scripts/gen_index.py
+
+# 6. 创建新分支并提交
+git checkout -b my-change
+git add .
+git commit -m "描述你的更改"
+git push origin my-change
+
+# 7. 在 GitHub 上创建 Pull Request
+```
+
+### 目录结构说明
+
+```
+philosopher-encyclopedia/
+├── requirements.txt        # Python 依赖（pip install -r）
+├── mkdocs.yml              # MkDocs 站点配置（网站构建）
+├── _config.yml             # Jekyll 配置（仅 GitHub Pages 备用）
+├── philosophers/           # 哲学家条目（核心内容）
+│   ├── index.md            # 总览索引（42位）
+│   ├── camus.md            # 示例条目
+│   └── ...
+├── docs/                   # 补充文档
+│   ├── schools.md          # 流派概览
+│   └── timeline.md         # 时间线
+├── scripts/
+│   └── gen_index.py        # 自动重建导航和同步计数
+└── template.md             # 新条目模板
+```
+
+---
+
 ## 🎯 如何贡献
 
 ### 1. 添加新哲学家条目
@@ -14,7 +68,8 @@
 1. Fork 本仓库
 2. 在 `philosophers/` 目录下创建新的 Markdown 文件（文件名用英文名，如 `plato.md`）
 3. 使用 `template.md` 作为模板
-4. 提交 Pull Request
+4. 运行 `python scripts/gen_index.py` 更新所有导航和计数
+5. 提交 Pull Request
 
 **要求**：
 - 条目需包含：生平、核心思想、代表作品、历史影响四个基本部分
@@ -89,14 +144,17 @@ git checkout -b add-new-philosopher
 # 4. 添加或修改文件
 # ... 编辑文件 ...
 
-# 5. 提交更改
+# 5. 运行索引重建
+python scripts/gen_index.py
+
+# 6. 提交更改
 git add .
 git commit -m "添加 XXX 哲学家条目"
 
-# 6. 推送到你的 Fork
+# 7. 推送到你的 Fork
 git push origin add-new-philosopher
 
-# 7. 在 GitHub 上创建 Pull Request
+# 8. 在 GitHub 上创建 Pull Request
 ```
 
 ---
@@ -110,6 +168,17 @@ git push origin add-new-philosopher
 - **德国古典**: 康德、费希特、谢林、黑格尔
 - **19世纪**: 叔本华、马克思、密尔、克尔凯郭尔
 - **20世纪**: 胡塞尔、海德格尔、维特根斯坦、波普尔、福柯
+
+### 待补充的哲学流派
+以下重要流派目前尚未收录代表性人物，欢迎贡献：
+
+| 流派 | 推荐人物 | 参考资料 |
+|------|---------|---------|
+| 中世纪哲学 | 奥古斯丁、托马斯·阿奎那 | 经院哲学奠基人 |
+| 文艺复兴 | 马基雅维利、蒙田 | 政治哲学与怀疑论 |
+| 中国宋明理学 | 朱熹、王阳明 | 理学与心学集大成者 |
+| 法兰克福学派 | 哈贝马斯 | 交往行为理论 |
+| 实用主义 | 威廉·詹姆斯、皮尔士 | 实用主义三杰缺二 |
 
 ### 选择标准
 - 对哲学史有重大影响
@@ -138,6 +207,9 @@ A: 可以，但需满足：
 - 对哲学领域有公认的重大贡献
 - 有代表性的著作
 - 思想已经过一定时间的检验
+
+**Q: 提交前必须运行 gen_index.py 吗？**  
+A: 是的。CI 中的 validate-entries.yml 会检查索引是否一致，如果 gen_index.py 有未提交的更改，PR 会被拒绝。建议养成 `python scripts/gen_index.py` → `git commit` 的习惯。
 
 ---
 

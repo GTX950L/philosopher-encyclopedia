@@ -11,6 +11,7 @@
   <img src="https://img.shields.io/badge/已收录-42位-orange.svg" alt="Philosophers" />
   <img src="https://img.shields.io/github/stars/GTX950L/philosopher-encyclopedia?style=social" alt="Stars" />
   <img src="https://img.shields.io/github/forks/GTX950L/philosopher-encyclopedia?style=social" alt="Forks" />
+  <img src="https://img.shields.io/github/actions/workflow/status/GTX950L/philosopher-encyclopedia/deploy-pages.yml?branch=main&label=部署&logo=github" alt="Deploy Status" />
 </p>
 
 <p align="center">
@@ -132,6 +133,15 @@
 philosopher-encyclopedia/
 ├── README.md              # 项目说明
 ├── CONTRIBUTING.md        # 贡献指南
+├── requirements.txt       # Python 依赖
+├── CHANGELOG.md           # 更新日志
+├── mkdocs.yml             # MkDocs 站点配置（网站构建）
+├── _config.yml            # Jekyll 配置（仅 GitHub Pages 备用）
+├── .editorconfig          # 编辑器格式配置
+├── .github/
+│   ├── workflows/         # CI/CD 工作流
+│   ├── dependabot.yml     # 自动依赖更新
+│   └── ISSUE_TEMPLATE/    # Issue 模板
 ├── philosophers/          # 哲学家条目目录（42 位）
 │   ├── camus.md          # 阿尔贝·加缪
 │   ├── sartre.md         # 让-保罗·萨特
@@ -139,8 +149,16 @@ philosopher-encyclopedia/
 ├── docs/                  # 补充资料
 │   ├── timeline.md        # 哲学史时间线
 │   └── schools.md         # 哲学流派概览
+├── stylesheets/
+│   └── extra.css          # 自定义样式
+├── scripts/
+│   ├── gen_index.py       # 自动重建导航和同步计数
+│   └── gen_nav.py         # 自动生成 mkdocs.yml 导航节段
+├── tags.md                # 标签分类页面
 └── template.md            # 新条目模板
 ```
+
+> **说明**：`mkdocs.yml` 是主要的站点构建配置（MkDocs Material 主题）。`_config.yml` 仅作为 GitHub Pages 的 Jekyll 回退方案，不需要手动维护。
 
 ## 🤝 如何贡献
 
