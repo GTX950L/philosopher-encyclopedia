@@ -24,6 +24,9 @@
   <a href="https://github.com/GTX950L/philosopher-encyclopedia/graphs/contributors">
     <img src="https://img.shields.io/github/contributors/GTX950L/philosopher-encyclopedia?color=blueviolet" alt="Contributors" />
   </a>
+  <a href="https://GTX950L.github.io/philosopher-encyclopedia/">
+    <img src="https://img.shields.io/badge/🚀-在线浏览-blue?style=flat" alt="在线浏览" />
+  </a>
 </p>
 
 <p align="center">
@@ -112,7 +115,7 @@
 | 35 | [约翰·斯图尔特·密尔](philosophers/mill.md) | 功利主义与论自由，伤害原则 |
 | 36 | [约翰·杜威](philosophers/dewey.md) | 美国实用主义，民主作为生活方式 |
 | 37 | [卡尔·波普尔](philosophers/popper.md) | 批判理性主义，开放社会及其敌人 |
-| 38 | [戈特弗里德·莱布尼茨](philosophers/leibniz.md) | 理性主义双雄之一，单子论与充足理由律，连接康德与近代科学 |
+| 38 | [戈特弗里德·威廉·莱布尼茨](philosophers/leibniz.md) | 理性主义双雄之一，单子论与充足理由律，连接康德与近代科学 |
 | 39 | [约翰·罗尔斯](philosophers/rawls.md) | 当代政治哲学里程碑——《正义论》，康德主义自由主义的现代形态 |
 
 ---
