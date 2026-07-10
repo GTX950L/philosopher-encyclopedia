@@ -2,7 +2,7 @@
 # 用法：pip install -r requirements.txt
 
 # MkDocs 与 Material 主题
-mkdocs-material>=9.5
+mkdocs-material>=9.7.6
 
 # 插件
 mkdocs-git-revision-date-localized-plugin>=1.2
