@@ -375,8 +375,11 @@ tags:
 
 ## 📚 所有哲学家
 
+- [aquinas](aquinas.md)
 - [arendt](arendt.md)
 - [aristotle](aristotle.md)
+- [augustine](augustine.md)
+- [bacon](bacon.md)
 - [beauvoir](beauvoir.md)
 - [bentham](bentham.md)
 **camus** ← 当前页

@@ -8,7 +8,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License" />
   <img src="https://img.shields.io/badge/状态-持续更新-green.svg" alt="Status" />
-  <img src="https://img.shields.io/badge/已收录-42位-orange.svg" alt="Philosophers" />
+  <img src="https://img.shields.io/badge/已收录-45位-orange.svg" alt="Philosophers" />
   <img src="https://img.shields.io/github/stars/GTX950L/philosopher-encyclopedia?style=social" alt="Stars" />
   <img src="https://img.shields.io/github/forks/GTX950L/philosopher-encyclopedia?style=social" alt="Forks" />
   <img src="https://img.shields.io/github/actions/workflow/status/GTX950L/philosopher-encyclopedia/deploy-pages.yml?branch=main&label=部署&logo=github" alt="Deploy Status" />
@@ -130,6 +130,18 @@
 
 ---
 
+---
+
+### 第六阶：中世纪教父哲学、经验主义启蒙
+
+| 顺序 | 哲学家 | 为什么这样排 |
+|------|--------|-------------|
+| 43 | [奥古斯丁](philosophers/augustine.md) | 教父哲学代表，连接古希腊与中世纪的桥梁，深刻影响西方基督教思想 |
+| 44 | [托马斯·阿奎那](philosophers/aquinas.md) | 经院哲学顶峰，自然法理论与五大证明，亚里士多德的基督教化 |
+| 45 | [弗朗西斯·培根](philosophers/bacon.md) | 经验主义与科学方法论先驱，「知识就是力量」，启蒙运动的奠基人 |
+
+---
+
 ## 📁 项目结构
 
 ```
@@ -145,7 +157,7 @@ philosopher-encyclopedia/
 │   ├── workflows/         # CI/CD 工作流
 │   ├── dependabot.yml     # 自动依赖更新
 │   └── ISSUE_TEMPLATE/    # Issue 模板
-├── philosophers/          # 哲学家条目目录（42 位）
+├── philosophers/          # 哲学家条目目录（45 位）
 │   ├── camus.md          # 阿尔贝·加缪
 │   ├── sartre.md         # 让-保罗·萨特
 │   └── ...               # 更多哲学家

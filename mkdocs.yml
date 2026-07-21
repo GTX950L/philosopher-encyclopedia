@@ -121,6 +121,10 @@ nav:
       - 墨子: philosophers/mozi.md
       - 巴鲁赫·斯宾诺莎: philosophers/spinoza.md
       - 戈特洛布·弗雷格: philosophers/frege.md
+      # 第六阶：中世纪教父哲学、经验主义启蒙
+      - 奥古斯丁: philosophers/augustine.md
+      - 托马斯·阿奎那: philosophers/aquinas.md
+      - 弗朗西斯·培根: philosophers/bacon.md
   - 参考:
       - 哲学流派概览: docs/schools.md
       - 哲学史时间线: docs/timeline.md
