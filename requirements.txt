@@ -1,11 +1,6 @@
 # 哲学家百科全书 - Python 依赖
 # 用法：pip install -r requirements.txt
 
-# MkDocs 与 Material 主题
-mkdocs-material>=9.7.7
-
-# 插件
-mkdocs-git-revision-date-localized-plugin>=1.5.3
-mkdocs-minify-plugin>=0.8.0
-mkdocs-redirects>=1.2.3        # 文件改名时自动生成跳转
-# tags 插件已内置于 mkdocs-material，无需额外安装
+# Zensical - 静态站点生成器（MkDocs Material 的继任者）
+# 安装后自动包含 Material 主题和所有内置模块
+zensical

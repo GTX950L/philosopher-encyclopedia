@@ -36,8 +36,8 @@ theme:
 
 markdown_extensions:
   - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:pymdownx.emoji.twemoji_db
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.highlight:
@@ -55,12 +55,8 @@ plugins:
       lang: zh
   - git-revision-date-localized:
       type: date
-  - minify:
-      minify_html: true
   - tags:
       tags_file: tags.md
-  - redirects:
-      redirect_maps: {}
 
 extra:
   social:
