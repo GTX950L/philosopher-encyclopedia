@@ -10,7 +10,7 @@ import glob
 import re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-PHIL = os.path.join(ROOT, "philosophers")
+PHIL = os.path.join(ROOT, "content", "philosophers")
 
 
 def display_name(path):

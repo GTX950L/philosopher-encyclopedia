@@ -230,8 +230,11 @@ tags:
 
 ## 📚 所有哲学家
 
+- [aquinas](aquinas.md)
 **arendt** ← 当前页
 - [aristotle](aristotle.md)
+- [augustine](augustine.md)
+- [bacon](bacon.md)
 - [beauvoir](beauvoir.md)
 - [bentham](bentham.md)
 - [camus](camus.md)
