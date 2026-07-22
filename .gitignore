@@ -1,2 +1,27 @@
 # Lychee 链接检查缓存
 .lycheecache
+
+# 构建输出（Zensical 生成）
+site/
+
+# Python 虚拟环境
+.venv/
+venv/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE 配置
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# 操作系统缩略图
+Thumbs.db

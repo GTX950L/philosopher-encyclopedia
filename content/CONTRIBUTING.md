@@ -27,7 +27,7 @@ pip install -r requirements.txt
 zensical serve
 # 访问 http://127.0.0.1:8000 查看效果
 
-# 5. 添加或修改哲学家条目后，重建导航索引
+# 5. （可选）运行一致性校验
 python scripts/gen_index.py
 
 # 6. 创建新分支并提交
@@ -45,16 +45,15 @@ git push origin my-change
 philosopher-encyclopedia/
 ├── requirements.txt        # Python 依赖（pip install -r）
 ├── mkdocs.yml              # Zensical 站点配置（兼容 MkDocs 格式）
-├── _config.yml             # Jekyll 配置（仅 GitHub Pages 备用）
 ├── philosophers/           # 哲学家条目（核心内容）
-│   ├── index.md            # 总览索引（42位）
+│   ├── index.md            # 总览索引
 │   ├── camus.md            # 示例条目
 │   └── ...
 ├── docs/                   # 补充文档
 │   ├── schools.md          # 流派概览
 │   └── timeline.md         # 时间线
 ├── scripts/
-│   └── gen_index.py        # 自动重建导航和同步计数
+│   └── gen_index.py        # 一致性校验（只读，不改文件）
 └── template.md             # 新条目模板
 ```
 
@@ -68,7 +67,7 @@ philosopher-encyclopedia/
 1. Fork 本仓库
 2. 在 `philosophers/` 目录下创建新的 Markdown 文件（文件名用英文名，如 `plato.md`）
 3. 使用 `template.md` 作为模板
-4. 运行 `python scripts/gen_index.py` 更新所有导航和计数
+4. 运行 `python scripts/gen_index.py` 校验一致性（只读检查，不需要预提交）
 5. 提交 Pull Request
 
 **要求**：
@@ -144,7 +143,7 @@ git checkout -b add-new-philosopher
 # 4. 添加或修改文件
 # ... 编辑文件 ...
 
-# 5. 运行索引重建
+# 5. （可选）运行一致性校验
 python scripts/gen_index.py
 
 # 6. 提交更改
@@ -209,7 +208,7 @@ A: 可以，但需满足：
 - 思想已经过一定时间的检验
 
 **Q: 提交前必须运行 gen_index.py 吗？**  
-A: 是的。CI 中的 validate-entries.yml 会检查索引是否一致，如果 gen_index.py 有未提交的更改，PR 会被拒绝。建议养成 `python scripts/gen_index.py` → `git commit` 的习惯。
+A: CI 中的 validate-entries.yml 会自动运行 `python scripts/gen_index.py` 做一致性校验，检查必需章节是否齐全、新添加的哲学家是否在 mkdocs.yml 中注册等。脚本是**只读的**，不会修改任何文件，放心运行。
 
 ---
 

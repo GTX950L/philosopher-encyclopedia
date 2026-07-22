@@ -9,14 +9,31 @@
 #### 变更内容
 - **`mkdocs.yml`**：移除暂不支持的插件（git-revision-date-localized、minify、tags、redirects），Zensical 原生读取该配置
 - **`requirements.txt`**：`mkdocs-material` → `zensical`
-- **`.github/workflows/deploy-pages.yml`**：`mkdocs build` → `zensical build`
-- **`.github/workflows/validate-entries.yml`**：去除多余依赖安装步骤
+- **`.github/workflows/deploy-pages.yml`**：`mkdocs build` → `zensical build`；增加 pip 缓存加速
+- **`.github/workflows/validate-entries.yml`**：去除多余依赖安装步骤；增加 pip 缓存
 - **`CONTRIBUTING.md`**：`mkdocs serve` → `zensical serve`
 
 #### 已知限制（Zensical 仍处于 alpha 阶段）
 - 页面底部不显示"最后更新日期"（git-revision-date-localized 暂未实现）
 - tags.md 标签分类页暂不自动聚合（tags 插件暂未实现）
 - HTML 不自动压缩（minify 插件暂未实现）
+
+---
+
+## [2.0.1] - 2026-07-22
+
+### 清理
+- **删除** `_config.yml`：Zensical 接管构建后不再需要 Jekyll 回退配置
+- **删除** `scripts/gen_nav.py`：未被使用的孤立脚本，nav 已在 mkdocs.yml 中手动维护
+- **完善** `.gitignore`：添加 site/、.venv/、__pycache__/、IDE 配置等标准忽略项
+
+### 重构
+- **`scripts/gen_index.py`**：从"修改文件+校验"改为纯只读校验。不再覆写每个页面的底部导航列表，不再自动更新计数。改为校验必需章节、nav 注册、文档链接一致性，返回退出码（0=通过，1=有问题）
+- **`.github/workflows/validate-entries.yml`**：gen_index 步骤简化为直接运行并检查退出码，不再比较 git diff
+
+### 文档
+- **`CONTRIBUTING.md`**：删除 gen_index.py 相关的"必须预提交"说明，改为"可选的一致性校验"
+- **`README.md`**：清理已删除文件的引用
 
 ---
 

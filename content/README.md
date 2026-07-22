@@ -151,7 +151,6 @@ philosopher-encyclopedia/
 ├── requirements.txt       # Python 依赖
 ├── CHANGELOG.md           # 更新日志
 ├── mkdocs.yml             # Zensical 站点配置（兼容 MkDocs 格式）
-├── _config.yml            # Jekyll 配置（仅 GitHub Pages 备用）
 ├── .editorconfig          # 编辑器格式配置
 ├── .github/
 │   ├── workflows/         # CI/CD 工作流
@@ -167,13 +166,12 @@ philosopher-encyclopedia/
 ├── stylesheets/
 │   └── extra.css          # 自定义样式
 ├── scripts/
-│   ├── gen_index.py       # 自动重建导航和同步计数
-│   └── gen_nav.py         # 自动生成 mkdocs.yml 导航节段
+│   └── gen_index.py       # 一致性校验（只读，不改文件）
 ├── tags.md                # 标签分类页面
 └── template.md            # 新条目模板
 ```
 
-> **说明**：`mkdocs.yml` 被 [Zensical](https://zensical.org)（Material for MkDocs 原班团队打造的下一代 SSG）原生读取。`_config.yml` 仅作为 GitHub Pages 的 Jekyll 回退方案，不需要手动维护。
+> **说明**：`mkdocs.yml` 被 [Zensical](https://zensical.org)（Material for MkDocs 原班团队打造的下一代 SSG）原生读取。
 
 ## 🤝 如何贡献
 

@@ -21,6 +21,8 @@ jobs:
         uses: actions/setup-python@v6
         with:
           python-version: "3.13"
+          cache: "pip"
+          cache-dependency-path: requirements.txt
       - name: Check required sections
         run: |
           keywords=("基本信息" "生平时间线" "核心思想" "代表作品" "对后世的影响" "经典名言" "延伸阅读")
@@ -35,16 +37,9 @@ jobs:
           done
           [ $fail -ne 0 ] && exit 1
           echo "All entries have required sections OK"
-      - name: Run gen_index.py to validate consistency
+      - name: Run gen_index.py （只读校验）
         run: |
           python scripts/gen_index.py
-          # 检查有无未提交的更改（gen_index会更新导航列表和计数）
-          if ! git diff --quiet; then
-            echo "::error::gen_index.py 产生了更改——请先在本地运行 python scripts/gen_index.py 再提交"
-            git diff --stat
-            exit 1
-          fi
-          echo "Index and navigation are consistent OK"
 
   check-internal-links:
     runs-on: ubuntu-latest
