@@ -6,12 +6,16 @@ on:
       - "content/docs/*.md"
       - "content/README.md"
       - "mkdocs.yml"
+      - "scripts/*.py"
+      - ".github/workflows/*.yml"
   pull_request:
     paths:
       - "content/philosophers/*.md"
       - "content/docs/*.md"
       - "content/README.md"
       - "mkdocs.yml"
+      - "scripts/*.py"
+      - ".github/workflows/*.yml"
 jobs:
   validate:
     runs-on: ubuntu-latest
