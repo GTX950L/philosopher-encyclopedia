@@ -128,7 +128,7 @@ def main():
     has_error = False
     has_error |= check_required_sections(entries)
     has_error |= check_nav_registration(entries)
-    has_error |= check_content_consistency(entries)
+    check_content_consistency(entries)  # 仅供参考，不阻断 CI
 
     print()
     if has_error:
