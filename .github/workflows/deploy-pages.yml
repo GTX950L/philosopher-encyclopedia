@@ -31,10 +31,10 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install -r requirements.txt
+          pip install zensical
 
       - name: Build site
-        run: mkdocs build --site-dir site
+        run: zensical build
 
       - name: Setup Pages
         uses: actions/configure-pages@v6

@@ -150,7 +150,7 @@ philosopher-encyclopedia/
 ├── CONTRIBUTING.md        # 贡献指南
 ├── requirements.txt       # Python 依赖
 ├── CHANGELOG.md           # 更新日志
-├── mkdocs.yml             # MkDocs 站点配置（网站构建）
+├── mkdocs.yml             # Zensical 站点配置（兼容 MkDocs 格式）
 ├── _config.yml            # Jekyll 配置（仅 GitHub Pages 备用）
 ├── .editorconfig          # 编辑器格式配置
 ├── .github/
@@ -173,7 +173,7 @@ philosopher-encyclopedia/
 └── template.md            # 新条目模板
 ```
 
-> **说明**：`mkdocs.yml` 是主要的站点构建配置（MkDocs Material 主题）。`_config.yml` 仅作为 GitHub Pages 的 Jekyll 回退方案，不需要手动维护。
+> **说明**：`mkdocs.yml` 被 [Zensical](https://zensical.org)（Material for MkDocs 原班团队打造的下一代 SSG）原生读取。`_config.yml` 仅作为 GitHub Pages 的 Jekyll 回退方案，不需要手动维护。
 
 ## 🤝 如何贡献
 

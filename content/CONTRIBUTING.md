@@ -24,7 +24,7 @@ cd philosopher-encyclopedia
 pip install -r requirements.txt
 
 # 4. 本地预览站点
-mkdocs serve
+zensical serve
 # 访问 http://127.0.0.1:8000 查看效果
 
 # 5. 添加或修改哲学家条目后，重建导航索引
@@ -44,7 +44,7 @@ git push origin my-change
 ```
 philosopher-encyclopedia/
 ├── requirements.txt        # Python 依赖（pip install -r）
-├── mkdocs.yml              # MkDocs 站点配置（网站构建）
+├── mkdocs.yml              # Zensical 站点配置（兼容 MkDocs 格式）
 ├── _config.yml             # Jekyll 配置（仅 GitHub Pages 备用）
 ├── philosophers/           # 哲学家条目（核心内容）
 │   ├── index.md            # 总览索引（42位）

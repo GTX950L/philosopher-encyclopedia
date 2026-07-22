@@ -53,14 +53,15 @@ markdown_extensions:
 plugins:
   - search:
       lang: zh
-  - git-revision-date-localized:
-      type: date
-  - minify:
-      minify_html: true
-  - tags:
-      tags_file: tags.md
-  - redirects:
-      redirect_maps: {}
+  # ⚠️ 以下插件在 Zensical 中尚未实现，暂不启用：
+  # - git-revision-date-localized:
+  #     type: date
+  # - minify:
+  #     minify_html: true
+  # - tags:
+  #     tags_file: tags.md
+  # - redirects:
+  #     redirect_maps: {}
 
 extra:
   social:

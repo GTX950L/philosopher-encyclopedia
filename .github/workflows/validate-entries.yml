@@ -21,8 +21,6 @@ jobs:
         uses: actions/setup-python@v6
         with:
           python-version: "3.13"
-      - name: Install dependencies
-        run: pip install -r requirements.txt
       - name: Check required sections
         run: |
           keywords=("基本信息" "生平时间线" "核心思想" "代表作品" "对后世的影响" "经典名言" "延伸阅读")

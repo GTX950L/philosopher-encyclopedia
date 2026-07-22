@@ -1,5 +1,25 @@
 # 更新日志 (Changelog)
 
+## [2.0.0] - 2026-07-22
+
+### 🚀 重大变更：从 MkDocs 迁移至 Zensical
+
+本项目从 MkDocs + Material for MkDocs 迁移至 [Zensical](https://zensical.org) —— 由 Material for MkDocs 原班团队打造的下一代静态站点生成器。
+
+#### 变更内容
+- **`mkdocs.yml`**：移除暂不支持的插件（git-revision-date-localized、minify、tags、redirects），Zensical 原生读取该配置
+- **`requirements.txt`**：`mkdocs-material` → `zensical`
+- **`.github/workflows/deploy-pages.yml`**：`mkdocs build` → `zensical build`
+- **`.github/workflows/validate-entries.yml`**：去除多余依赖安装步骤
+- **`CONTRIBUTING.md`**：`mkdocs serve` → `zensical serve`
+
+#### 已知限制（Zensical 仍处于 alpha 阶段）
+- 页面底部不显示"最后更新日期"（git-revision-date-localized 暂未实现）
+- tags.md 标签分类页暂不自动聚合（tags 插件暂未实现）
+- HTML 不自动压缩（minify 插件暂未实现）
+
+---
+
 ## [1.0.1] - 2026-07-10
 
 ### 新增
