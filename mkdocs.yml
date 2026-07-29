@@ -53,15 +53,6 @@ markdown_extensions:
 plugins:
   - search:
       lang: zh
-  # ⚠️ 以下插件在 Zensical 中尚未实现，暂不启用：
-  # - git-revision-date-localized:
-  #     type: date
-  # - minify:
-  #     minify_html: true
-  # - tags:
-  #     tags_file: tags.md
-  # - redirects:
-  #     redirect_maps: {}
 
 extra:
   social:
@@ -101,6 +92,7 @@ nav:
       - 庄子: philosophers/zhuangzi.md
       - 孔子: philosophers/confucius.md
       - 孟子: philosophers/mencius.md
+      - 王守仁（王阳明）: philosophers/wangyangming.md
       - 赫拉克利特: philosophers/heraclitus.md
       - 苏格拉底: philosophers/socrates.md
       - 柏拉图: philosophers/plato.md
@@ -108,6 +100,7 @@ nav:
       - 勒内·笛卡尔: philosophers/descartes.md
       - 大卫·休谟: philosophers/hume.md
       # 第四阶：从近代政治哲学到现代开放社会
+      - 尼科洛·马基雅维利: philosophers/machiavelli.md
       - 伊曼努尔·康德: philosophers/kant.md
       - 托马斯·霍布斯: philosophers/hobbes.md
       - 约翰·洛克: philosophers/locke.md
@@ -118,6 +111,7 @@ nav:
       - 卡尔·波普尔: philosophers/popper.md
       - 戈特弗里德·威廉·莱布尼茨: philosophers/leibniz.md
       - 约翰·罗尔斯: philosophers/rawls.md
+      - 尤尔根·哈贝马斯: philosophers/habermas.md
       # 第五阶：中国墨家、理性主义顶峰与分析哲学发端
       - 墨子: philosophers/mozi.md
       - 巴鲁赫·斯宾诺莎: philosophers/spinoza.md
