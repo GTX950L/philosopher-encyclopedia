@@ -8,7 +8,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License" />
   <img src="https://img.shields.io/badge/状态-持续更新-green.svg" alt="Status" />
-  <img src="https://img.shields.io/badge/已收录-45位-orange.svg" alt="Philosophers" />
+  <img src="https://img.shields.io/badge/已收录-48位-orange.svg" alt="Philosophers" />
   <img src="https://img.shields.io/github/stars/GTX950L/philosopher-encyclopedia?style=social" alt="Stars" />
   <img src="https://img.shields.io/github/forks/GTX950L/philosopher-encyclopedia?style=social" alt="Forks" />
   <img src="https://img.shields.io/github/actions/workflow/status/GTX950L/philosopher-encyclopedia/deploy-pages.yml?branch=main&label=部署&logo=github" alt="Deploy Status" />
@@ -94,12 +94,13 @@
 | 21 | [庄子](philosophers/zhuangzi.md) | 道家另一位高峰——'齐物论'与相对主义，轻松好读 |
 | 22 | [孔子](philosophers/confucius.md) | 中国哲学另一极——'仁'与伦理实践，和西方本体论形成对照 |
 | 23 | [孟子](philosophers/mencius.md) | 儒家第二号——'性善论'与仁政，承接孔子并发展出心性论 |
-| 24 | [赫拉克利特](philosophers/heraclitus.md) | 古希腊变化哲学——'人不能两次踏入同一条河流'，与老子'道'有相通之处 |
-| 25 | [苏格拉底](philosophers/socrates.md) | 古希腊哲学起点——'未经省察的人生不值得过'，助产术方法论 |
-| 26 | [柏拉图](philosophers/plato.md) | 理念论——苏格拉底的弟子，西方哲学正统之源 |
-| 27 | [亚里士多德](philosophers/aristotle.md) | 逻辑学之父——柏拉图的学生，创立了形式逻辑与科学方法论 |
-| 28 | [勒内·笛卡尔](philosophers/descartes.md) | 近代哲学之父——'我思故我在'，理性主义奠基人 |
-| 29 | [大卫·休谟](philosophers/hume.md) | 经验主义高峰——康德称其'打破了我的独断论' |
+| 24 | [王守仁（王阳明）](philosophers/wangyangming.md) | 中国心学集大成者——「知行合一」「致良知」，宋明理学高峰，深刻影响东亚思想 |
+| 25 | [赫拉克利特](philosophers/heraclitus.md) | 古希腊变化哲学——'人不能两次踏入同一条河流'，与老子'道'有相通之处 |
+| 26 | [苏格拉底](philosophers/socrates.md) | 古希腊哲学起点——'未经省察的人生不值得过'，助产术方法论 |
+| 27 | [柏拉图](philosophers/plato.md) | 理念论——苏格拉底的弟子，西方哲学正统之源 |
+| 28 | [亚里士多德](philosophers/aristotle.md) | 逻辑学之父——柏拉图的学生，创立了形式逻辑与科学方法论 |
+| 29 | [勒内·笛卡尔](philosophers/descartes.md) | 近代哲学之父——'我思故我在'，理性主义奠基人 |
+| 30 | [大卫·休谟](philosophers/hume.md) | 经验主义高峰——康德称其'打破了我的独断论' |
 
 ---
 
@@ -107,16 +108,18 @@
 
 | 顺序 | 哲学家 | 为什么这样排 |
 |------|--------|-------------|
-| 30 | [伊曼努尔·康德](philosophers/kant.md) | 哲学转折——'哥白尼式革命'，连接古代与现代哲学的枢纽 |
-| 31 | [托马斯·霍布斯](philosophers/hobbes.md) | 社会契约论起点，自然状态与利维坦 |
-| 32 | [约翰·洛克](philosophers/locke.md) | 古典自由主义，自然权利与有限政府 |
-| 33 | [让-雅克·卢梭](philosophers/rousseau.md) | 社会契约论另一极——'人生而自由，却处处身戴枷锁'，人民主权与公意 |
-| 34 | [杰里米·边沁](philosophers/bentham.md) | 功利主义创始人——'最大多数人的最大幸福'，密尔的思想源头 |
-| 35 | [约翰·斯图尔特·密尔](philosophers/mill.md) | 功利主义与论自由，伤害原则 |
-| 36 | [约翰·杜威](philosophers/dewey.md) | 美国实用主义，民主作为生活方式 |
-| 37 | [卡尔·波普尔](philosophers/popper.md) | 批判理性主义，开放社会及其敌人 |
-| 38 | [戈特弗里德·威廉·莱布尼茨](philosophers/leibniz.md) | 理性主义双雄之一，单子论与充足理由律，连接康德与近代科学 |
-| 39 | [约翰·罗尔斯](philosophers/rawls.md) | 当代政治哲学里程碑——《正义论》，康德主义自由主义的现代形态 |
+| 31 | [尼科洛·马基雅维利](philosophers/machiavelli.md) | 近代政治哲学起点——《君主论》，政治现实主义，西方政治哲学的转折点 |
+| 32 | [伊曼努尔·康德](philosophers/kant.md) | 哲学转折——'哥白尼式革命'，连接古代与现代哲学的枢纽 |
+| 33 | [托马斯·霍布斯](philosophers/hobbes.md) | 社会契约论起点，自然状态与利维坦 |
+| 34 | [约翰·洛克](philosophers/locke.md) | 古典自由主义，自然权利与有限政府 |
+| 35 | [让-雅克·卢梭](philosophers/rousseau.md) | 社会契约论另一极——'人生而自由，却处处身戴枷锁'，人民主权与公意 |
+| 36 | [杰里米·边沁](philosophers/bentham.md) | 功利主义创始人——'最大多数人的最大幸福'，密尔的思想源头 |
+| 37 | [约翰·斯图尔特·密尔](philosophers/mill.md) | 功利主义与论自由，伤害原则 |
+| 38 | [约翰·杜威](philosophers/dewey.md) | 美国实用主义，民主作为生活方式 |
+| 39 | [卡尔·波普尔](philosophers/popper.md) | 批判理性主义，开放社会及其敌人 |
+| 40 | [戈特弗里德·威廉·莱布尼茨](philosophers/leibniz.md) | 理性主义双雄之一，单子论与充足理由律，连接康德与近代科学 |
+| 41 | [约翰·罗尔斯](philosophers/rawls.md) | 当代政治哲学里程碑——《正义论》，康德主义自由主义的现代形态 |
+| 42 | [尤尔根·哈贝马斯](philosophers/habermas.md) | 当代政治哲学里程碑——交往行为理论、公共领域，法兰克福学派第二代核心 |
 
 ---
 
@@ -124,9 +127,9 @@
 
 | 顺序 | 哲学家 | 为什么这样排 |
 |------|--------|-------------|
-| 40 | [墨翟（墨子）](philosophers/mozi.md) | 中国逻辑与功利主义思想源头，「兼爱」「非攻」与儒家形成对照 |
-| 41 | [巴鲁赫·斯宾诺莎](philosophers/spinoza.md) | 理性主义顶峰，实体一元论，深刻影响启蒙与德国观念论 |
-| 42 | [戈特洛布·弗雷格](philosophers/frege.md) | 分析哲学与数理逻辑之父，语言哲学的现代起点 |
+| 43 | [墨翟（墨子）](philosophers/mozi.md) | 中国逻辑与功利主义思想源头，「兼爱」「非攻」与儒家形成对照 |
+| 44 | [巴鲁赫·斯宾诺莎](philosophers/spinoza.md) | 理性主义顶峰，实体一元论，深刻影响启蒙与德国观念论 |
+| 45 | [戈特洛布·弗雷格](philosophers/frege.md) | 分析哲学与数理逻辑之父，语言哲学的现代起点 |
 
 ---
 
@@ -136,9 +139,9 @@
 
 | 顺序 | 哲学家 | 为什么这样排 |
 |------|--------|-------------|
-| 43 | [奥古斯丁](philosophers/augustine.md) | 教父哲学代表，连接古希腊与中世纪的桥梁，深刻影响西方基督教思想 |
-| 44 | [托马斯·阿奎那](philosophers/aquinas.md) | 经院哲学顶峰，自然法理论与五大证明，亚里士多德的基督教化 |
-| 45 | [弗朗西斯·培根](philosophers/bacon.md) | 经验主义与科学方法论先驱，「知识就是力量」，启蒙运动的奠基人 |
+| 46 | [奥古斯丁](philosophers/augustine.md) | 教父哲学代表，连接古希腊与中世纪的桥梁，深刻影响西方基督教思想 |
+| 47 | [托马斯·阿奎那](philosophers/aquinas.md) | 经院哲学顶峰，自然法理论与五大证明，亚里士多德的基督教化 |
+| 48 | [弗朗西斯·培根](philosophers/bacon.md) | 经验主义与科学方法论先驱，「知识就是力量」，启蒙运动的奠基人 |
 
 ---
 
