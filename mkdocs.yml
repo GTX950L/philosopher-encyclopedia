@@ -9,12 +9,16 @@ edit_uri: edit/main/content/
 theme:
   name: material
   language: zh
+  favicon: assets/favicon.svg
+  icon:
+    logo: material/bookshelf
   features:
     - navigation.instant
     - navigation.tracking
     - navigation.expand
     - navigation.top
     - navigation.indexes
+    - navigation.sections
     - search.suggest
     - search.highlight
     - content.code.copy
@@ -66,60 +70,60 @@ nav:
   - 首页: README.md
   - 哲学家:
       - 总览: philosophers/index.md
-      # 第一阶：存在主义入门
-      - 阿尔贝·加缪: philosophers/camus.md
-      - 让-保罗·萨特: philosophers/sartre.md
-      - 索伦·克尔凯郭尔: philosophers/kierkegaard.md
-      - 弗里德里希·尼采: philosophers/nietzsche.md
-      - 亚瑟·叔本华: philosophers/schopenhauer.md
-      - 埃德蒙德·胡塞尔: philosophers/husserl.md
-      - 马丁·海德格尔: philosophers/heidegger.md
-      - 西蒙娜·德·波伏娃: philosophers/beauvoir.md
-      - 莫里斯·梅洛-庞蒂: philosophers/merleau-ponty.md
-      # 第二阶：扩展与深化
-      - 卡尔·雅斯贝尔斯: philosophers/jaspers.md
-      - 费奥多尔·陀思妥耶夫斯基: philosophers/dostoevsky.md
-      - 格奥尔格·威廉·弗里德里希·黑格尔: philosophers/hegel.md
-      - 卡尔·马克思: philosophers/marx.md
-      - 汉娜·阿伦特: philosophers/arendt.md
-      - 埃里希·弗洛姆: philosophers/fromm.md
-      - 米歇尔·福柯: philosophers/foucault.md
-      - 雅克·德里达: philosophers/derrida.md
-      - 伯特兰·罗素: philosophers/russell.md
-      - 路德维希·维特根斯坦: philosophers/wittgenstein.md
-      # 第三阶：古希腊、中国与近代哲学源头
-      - 老子: philosophers/laozi.md
-      - 庄子: philosophers/zhuangzi.md
-      - 孔子: philosophers/confucius.md
-      - 孟子: philosophers/mencius.md
-      - 王守仁（王阳明）: philosophers/wangyangming.md
-      - 赫拉克利特: philosophers/heraclitus.md
-      - 苏格拉底: philosophers/socrates.md
-      - 柏拉图: philosophers/plato.md
-      - 亚里士多德: philosophers/aristotle.md
-      - 勒内·笛卡尔: philosophers/descartes.md
-      - 大卫·休谟: philosophers/hume.md
-      # 第四阶：从近代政治哲学到现代开放社会
-      - 尼科洛·马基雅维利: philosophers/machiavelli.md
-      - 伊曼努尔·康德: philosophers/kant.md
-      - 托马斯·霍布斯: philosophers/hobbes.md
-      - 约翰·洛克: philosophers/locke.md
-      - 让-雅克·卢梭: philosophers/rousseau.md
-      - 杰里米·边沁: philosophers/bentham.md
-      - 约翰·斯图尔特·密尔: philosophers/mill.md
-      - 约翰·杜威: philosophers/dewey.md
-      - 卡尔·波普尔: philosophers/popper.md
-      - 戈特弗里德·威廉·莱布尼茨: philosophers/leibniz.md
-      - 约翰·罗尔斯: philosophers/rawls.md
-      - 尤尔根·哈贝马斯: philosophers/habermas.md
-      # 第五阶：中国墨家、理性主义顶峰与分析哲学发端
-      - 墨子: philosophers/mozi.md
-      - 巴鲁赫·斯宾诺莎: philosophers/spinoza.md
-      - 戈特洛布·弗雷格: philosophers/frege.md
-      # 第六阶：中世纪教父哲学、经验主义启蒙
-      - 奥古斯丁: philosophers/augustine.md
-      - 托马斯·阿奎那: philosophers/aquinas.md
-      - 弗朗西斯·培根: philosophers/bacon.md
+      - 第一阶 · 存在主义入门:
+          - 阿尔贝·加缪: philosophers/camus.md
+          - 让-保罗·萨特: philosophers/sartre.md
+          - 索伦·克尔凯郭尔: philosophers/kierkegaard.md
+          - 弗里德里希·尼采: philosophers/nietzsche.md
+          - 亚瑟·叔本华: philosophers/schopenhauer.md
+          - 埃德蒙德·胡塞尔: philosophers/husserl.md
+          - 马丁·海德格尔: philosophers/heidegger.md
+          - 西蒙娜·德·波伏娃: philosophers/beauvoir.md
+          - 莫里斯·梅洛-庞蒂: philosophers/merleau-ponty.md
+      - 第二阶 · 扩展与深化:
+          - 卡尔·雅斯贝尔斯: philosophers/jaspers.md
+          - 费奥多尔·陀思妥耶夫斯基: philosophers/dostoevsky.md
+          - 格奥尔格·威廉·弗里德里希·黑格尔: philosophers/hegel.md
+          - 卡尔·马克思: philosophers/marx.md
+          - 汉娜·阿伦特: philosophers/arendt.md
+          - 埃里希·弗洛姆: philosophers/fromm.md
+          - 米歇尔·福柯: philosophers/foucault.md
+          - 雅克·德里达: philosophers/derrida.md
+          - 伯特兰·罗素: philosophers/russell.md
+          - 路德维希·维特根斯坦: philosophers/wittgenstein.md
+      - 第三阶 · 古希腊、中国与近代源头:
+          - 老子: philosophers/laozi.md
+          - 庄子: philosophers/zhuangzi.md
+          - 孔子: philosophers/confucius.md
+          - 孟子: philosophers/mencius.md
+          - 王守仁（王阳明）: philosophers/wangyangming.md
+          - 赫拉克利特: philosophers/heraclitus.md
+          - 苏格拉底: philosophers/socrates.md
+          - 柏拉图: philosophers/plato.md
+          - 亚里士多德: philosophers/aristotle.md
+          - 勒内·笛卡尔: philosophers/descartes.md
+          - 大卫·休谟: philosophers/hume.md
+      - 第四阶 · 近代政治哲学到开放社会:
+          - 尼科洛·马基雅维利: philosophers/machiavelli.md
+          - 伊曼努尔·康德: philosophers/kant.md
+          - 托马斯·霍布斯: philosophers/hobbes.md
+          - 约翰·洛克: philosophers/locke.md
+          - 让-雅克·卢梭: philosophers/rousseau.md
+          - 杰里米·边沁: philosophers/bentham.md
+          - 约翰·斯图尔特·密尔: philosophers/mill.md
+          - 约翰·杜威: philosophers/dewey.md
+          - 卡尔·波普尔: philosophers/popper.md
+          - 戈特弗里德·威廉·莱布尼茨: philosophers/leibniz.md
+          - 约翰·罗尔斯: philosophers/rawls.md
+          - 尤尔根·哈贝马斯: philosophers/habermas.md
+      - 第五阶 · 墨家、理性主义与分析哲学:
+          - 墨子: philosophers/mozi.md
+          - 巴鲁赫·斯宾诺莎: philosophers/spinoza.md
+          - 戈特洛布·弗雷格: philosophers/frege.md
+      - 第六阶 · 中世纪教父哲学与经验主义启蒙:
+          - 奥古斯丁: philosophers/augustine.md
+          - 托马斯·阿奎那: philosophers/aquinas.md
+          - 弗朗西斯·培根: philosophers/bacon.md
   - 参考:
       - 哲学流派概览: docs/schools.md
       - 哲学史时间线: docs/timeline.md

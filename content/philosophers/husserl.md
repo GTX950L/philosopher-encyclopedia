@@ -11,19 +11,6 @@ tags:
 > *"Zu den Sachen selbst."*
 
 ---
-## 📑 目录
-
-- [📸 基本信息](#基本信息)
-- [📅 生平时间线](#生平时间线)
-- [💡 核心思想](#核心思想)
-- [📚 代表作品](#代表作品)
-- [🌍 对后世的影响](#对后世的影响)
-- [💬 经典名言](#经典名言)
-- [📖 延伸阅读](#延伸阅读)
-- [📝 编者注](#编者注)
-- [🔗 相关哲学家](#相关哲学家)
-
----
 ## 📸 基本信息
 
 | 项目 | 信息 |
@@ -175,57 +162,14 @@ tags:
 - [梅洛-庞蒂](merleau-ponty.md) — 将现象学与身体性、知觉紧密结合
 - [德里达](derrida.md) — 解构主义从胡塞尔《几何学的起源》出发
 - [康德](kant.md) — 胡塞尔自称"先验现象学"是康德先验哲学的完成
-- [布伦塔诺](—) — 胡塞尔的老师，"意向性"概念的来源
+- 布伦塔诺（尚未收录）— 胡塞尔的老师，"意向性"概念的来源
 
 ---
 
 ## 📚 所有哲学家
 
-- [aquinas](aquinas.md)
-- [arendt](arendt.md)
-- [aristotle](aristotle.md)
-- [augustine](augustine.md)
-- [bacon](bacon.md)
-- [beauvoir](beauvoir.md)
-- [bentham](bentham.md)
-- [camus](camus.md)
-- [confucius](confucius.md)
-- [derrida](derrida.md)
-- [descartes](descartes.md)
-- [dewey](dewey.md)
-- [dostoevsky](dostoevsky.md)
-- [foucault](foucault.md)
-- [frege](frege.md)
-- [fromm](fromm.md)
-- [hegel](hegel.md)
-- [heidegger](heidegger.md)
-- [heraclitus](heraclitus.md)
-- [hobbes](hobbes.md)
-- [hume](hume.md)
-**husserl** ← 当前页
-- [jaspers](jaspers.md)
-- [kant](kant.md)
-- [kierkegaard](kierkegaard.md)
-- [laozi](laozi.md)
-- [leibniz](leibniz.md)
-- [locke](locke.md)
-- [marx](marx.md)
-- [mencius](mencius.md)
-- [merleau-ponty](merleau-ponty.md)
-- [mill](mill.md)
-- [mozi](mozi.md)
-- [nietzsche](nietzsche.md)
-- [plato](plato.md)
-- [popper](popper.md)
-- [rawls](rawls.md)
-- [rousseau](rousseau.md)
-- [russell](russell.md)
-- [sartre](sartre.md)
-- [schopenhauer](schopenhauer.md)
-- [socrates](socrates.md)
-- [spinoza](spinoza.md)
-- [wittgenstein](wittgenstein.md)
-- [zhuangzi](zhuangzi.md)
+📖 [查看全部 48 位哲学家](index.md)
+
 ⬆️ **[回到顶部](#top)**
 **最后更新**: 2026年7月  
 **贡献者**: GTX950L  

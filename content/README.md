@@ -159,7 +159,7 @@ philosopher-encyclopedia/
 │   ├── workflows/         # CI/CD 工作流
 │   ├── dependabot.yml     # 自动依赖更新
 │   └── ISSUE_TEMPLATE/    # Issue 模板
-├── philosophers/          # 哲学家条目目录（45 位）
+├── philosophers/          # 哲学家条目目录（48 位）
 │   ├── camus.md          # 阿尔贝·加缪
 │   ├── sartre.md         # 让-保罗·萨特
 │   └── ...               # 更多哲学家
@@ -188,7 +188,7 @@ philosopher-encyclopedia/
 
 ## 📜 许可证
 
-[MIT License](LICENSE)
+[MIT License](https://github.com/GTX950L/philosopher-encyclopedia/blob/main/LICENSE)
 
 ## ⭐ Star History
 

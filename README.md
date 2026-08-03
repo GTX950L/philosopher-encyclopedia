@@ -41,7 +41,7 @@
 
 ## 🤝 如何贡献
 
-欢迎提交 Issue 和 Pull Request。详见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+欢迎提交 Issue 和 Pull Request。详见 [CONTRIBUTING.md](content/CONTRIBUTING.md)。
 
 ## 📜 许可证
 

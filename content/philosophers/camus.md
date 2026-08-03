@@ -12,21 +12,6 @@ tags:
 > *"Au milieu de l'hiver, je découvrais enfin qu'il y avait en moi un été invincible."*
 
 ---
-## 📑 目录
-
-- [📸 基本信息](#-基本信息)
-- [📅 生平时间线](#-生平时间线)
-- [🏛️ 历史背景](#-历史背景)
-- [💡 核心思想](#-核心思想)
-- [📚 代表作品](#-代表作品)
-- [🤝 加缪与萨特：从盟友到决裂](#-加缪与萨特从盟友到决裂)
-- [🌍 对后世的影响](#-对后世的影响)
-- [💬 经典名言](#-经典名言)
-- [📖 延伸阅读](#-延伸阅读)
-- [📝 编者注](#-编者注)
-
----
-
 ## 📸 基本信息
 
 | 项目 | 信息 |
@@ -303,10 +288,10 @@ tags:
 > "不是对未来的希望，而是对现在的清醒，才是生活的动力。"  
 > *"Ce n'est pas l'espoir qui doit faire vivre, c'est la lucidité."*
 
-> "裁判席上的人，自己也是被审判者。"  
-> *"Il n'est pas de crime, pas de vice, pas de vertu, pas de vices, pas de vertus qui ne soient imaginables."*
+> "没有不可想象的罪行、恶习或美德。"  
+> *"Il n'est pas de crime, ni de vice, ni de vertu qui ne soient imaginables."*
 
-> "我们花了一生的时间，试图成为另一个人。"  
+> "生命的一部分用来等待未来的自己，另一部分用来悔恨过去的自己。"  
 > *"On passe une partie de sa vie à attendre celui qu'on sera et l'autre partie à regretter celui qu'on a été."*
 
 > "真正的慷慨，是对未来抱有无穷的耐心。"  
@@ -370,56 +355,13 @@ tags:
 - [尼采](nietzsche.md) — 荒谬哲学的先驱
 - [陀思妥耶夫斯基](dostoevsky.md) — 《地下室手记》对《局外人》的影响
 - [克尔凯郭尔](kierkegaard.md) — 存在主义先驱
-- [梅洛-庞蒂](merleau-ponty.md) — 同时代》，有交往
+- [梅洛-庞蒂](merleau-ponty.md) — 同时代法国现象学运动成员，与萨特、波伏娃交往密切
 
 
 ## 📚 所有哲学家
 
-- [aquinas](aquinas.md)
-- [arendt](arendt.md)
-- [aristotle](aristotle.md)
-- [augustine](augustine.md)
-- [bacon](bacon.md)
-- [beauvoir](beauvoir.md)
-- [bentham](bentham.md)
-**camus** ← 当前页
-- [confucius](confucius.md)
-- [derrida](derrida.md)
-- [descartes](descartes.md)
-- [dewey](dewey.md)
-- [dostoevsky](dostoevsky.md)
-- [foucault](foucault.md)
-- [frege](frege.md)
-- [fromm](fromm.md)
-- [hegel](hegel.md)
-- [heidegger](heidegger.md)
-- [heraclitus](heraclitus.md)
-- [hobbes](hobbes.md)
-- [hume](hume.md)
-- [husserl](husserl.md)
-- [jaspers](jaspers.md)
-- [kant](kant.md)
-- [kierkegaard](kierkegaard.md)
-- [laozi](laozi.md)
-- [leibniz](leibniz.md)
-- [locke](locke.md)
-- [marx](marx.md)
-- [mencius](mencius.md)
-- [merleau-ponty](merleau-ponty.md)
-- [mill](mill.md)
-- [mozi](mozi.md)
-- [nietzsche](nietzsche.md)
-- [plato](plato.md)
-- [popper](popper.md)
-- [rawls](rawls.md)
-- [rousseau](rousseau.md)
-- [russell](russell.md)
-- [sartre](sartre.md)
-- [schopenhauer](schopenhauer.md)
-- [socrates](socrates.md)
-- [spinoza](spinoza.md)
-- [wittgenstein](wittgenstein.md)
-- [zhuangzi](zhuangzi.md)
+📖 [查看全部 48 位哲学家](index.md)
+
 ⬆️ **[回到顶部](#top)**
 **最后更新**: 2026年7月  
 **贡献者**: GTX950L  

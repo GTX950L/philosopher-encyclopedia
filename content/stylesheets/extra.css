@@ -1,19 +1,67 @@
-/* 哲学家百科全书 - 自定义样式 */
+/* =========================================================
+   哲学家百科全书 · 阅读体验增强
+   ========================================================= */
 
-/* 基本信息表格优化 */
+/* 1. 中文字体栈：正文宋体（书卷气、适合长文阅读），标题黑体保持醒目 */
+:root {
+  --md-text-font-family: "Noto Serif SC", "Source Han Serif SC",
+    "Songti SC", "STSong", "SimSun", serif;
+  --md-code-font-family: "JetBrains Mono", "Cascadia Code", Consolas,
+    "Courier New", monospace;
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6 {
+  font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans SC",
+    "Source Han Sans SC", sans-serif;
+  font-weight: 600;
+}
+
+/* 2. 正文行高与段落间距（长文阅读舒适度） */
+.md-typeset {
+  line-height: 1.8;
+}
+
+.md-typeset p {
+  margin: 0.8em 0;
+}
+
+/* 3. 内容列宽收窄，提升阅读专注度 */
+.md-grid {
+  max-width: 56rem;
+}
+
+/* 4. 标题视觉层级：二级标题加分隔线 */
+.md-typeset h2 {
+  border-bottom: 1px solid var(--md-default-fg-color--light);
+  padding-bottom: 0.3em;
+  margin-top: 1.6em;
+}
+
+/* 5. 基本信息表格：表头主色淡底、首列加粗 */
 .md-typeset table:not([class]) th:first-child {
   white-space: nowrap;
   width: 25%;
 }
 
-/* 名言引用区块 */
+.md-typeset table:not([class]) th {
+  background-color: rgba(63, 81, 181, 0.08);
+}
+
+/* 6. 名言引用区块 */
 blockquote {
   border-left: 4px solid var(--md-primary-fg-color);
   padding-left: 1em;
-  margin: 1em 0;
+  margin: 1.2em 0;
+  background-color: rgba(63, 81, 181, 0.04);
+  border-radius: 0 6px 6px 0;
 }
 
-/* 标签云样式优化 */
+/* 7. 标签云样式优化 */
 .md-tags {
   margin: 0.5em 0;
 }
@@ -22,7 +70,7 @@ blockquote {
   font-size: 0.75rem;
 }
 
-/* 时间线表格在小屏上的可读性 */
+/* 8. 时间线表格在小屏上的可读性 */
 @media screen and (max-width: 76.25em) {
   .md-typeset table:not([class]) {
     font-size: 0.8rem;
