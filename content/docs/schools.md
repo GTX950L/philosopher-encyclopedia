@@ -307,9 +307,9 @@
 
 ## 🔗 相关资源
 
-- 返回 [README主页](README.md)
+- 返回 [README主页](../README.md)
 - 查看 [哲学史时间线](timeline.md)
-- 查看 [条目模板](template.md)
+- 查看 [条目模板](../template.md)
 
 ---
 

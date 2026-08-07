@@ -46,7 +46,11 @@ markdown_extensions:
       alternate_style: true
   - pymdownx.highlight:
       anchor_linenums: true
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tasklist:
       custom_checkbox: true
   - admonition
@@ -127,6 +131,7 @@ nav:
   - 参考:
       - 哲学流派概览: docs/schools.md
       - 哲学史时间线: docs/timeline.md
+      - 拼音索引（A-Z）: docs/index-by-pinyin.md
       - 标签分类: tags.md
       - 条目模板: template.md
       - 贡献指南: CONTRIBUTING.md

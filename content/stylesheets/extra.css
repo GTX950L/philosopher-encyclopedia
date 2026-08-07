@@ -2,12 +2,14 @@
    哲学家百科全书 · 阅读体验增强
    ========================================================= */
 
-/* 1. 中文字体栈：正文宋体（书卷气、适合长文阅读），标题黑体保持醒目 */
+/* 1. 中文字体栈：正文宋体（书卷气、适合长文阅读），标题黑体保持醒目
+   加上 system fallback 避免首屏字体闪烁 */
 :root {
   --md-text-font-family: "Noto Serif SC", "Source Han Serif SC",
-    "Songti SC", "STSong", "SimSun", serif;
+    "Songti SC", "STSong", "SimSun", "Songti TC", "PingFang TC",
+    -apple-system, BlinkMacSystemFont, "Segoe UI", serif;
   --md-code-font-family: "JetBrains Mono", "Cascadia Code", Consolas,
-    "Courier New", monospace;
+    "Courier New", ui-monospace, monospace;
 }
 
 .md-typeset h1,
@@ -16,14 +18,17 @@
 .md-typeset h4,
 .md-typeset h5,
 .md-typeset h6 {
-  font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans SC",
-    "Source Han Sans SC", sans-serif;
+  font-family: "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB",
+    "Noto Sans SC", "Source Han Sans SC",
+    -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-weight: 600;
+  letter-spacing: 0.01em;
 }
 
 /* 2. 正文行高与段落间距（长文阅读舒适度） */
 .md-typeset {
   line-height: 1.8;
+  font-size: 0.95rem;
 }
 
 .md-typeset p {
@@ -39,13 +44,17 @@
 .md-typeset h2 {
   border-bottom: 1px solid var(--md-default-fg-color--light);
   padding-bottom: 0.3em;
-  margin-top: 1.6em;
+  margin-top: 1.8em;
+}
+
+.md-typeset h3 {
+  margin-top: 1.4em;
 }
 
 /* 5. 基本信息表格：表头主色淡底、首列加粗 */
 .md-typeset table:not([class]) th:first-child {
-  white-space: nowrap;
   width: 25%;
+  white-space: nowrap;
 }
 
 .md-typeset table:not([class]) th {
@@ -55,19 +64,22 @@
 /* 6. 名言引用区块 */
 blockquote {
   border-left: 4px solid var(--md-primary-fg-color);
-  padding-left: 1em;
+  padding: 0.6em 0 0.6em 1em;
   margin: 1.2em 0;
   background-color: rgba(63, 81, 181, 0.04);
   border-radius: 0 6px 6px 0;
+  font-style: normal;
 }
 
-/* 7. 标签云样式优化 */
-.md-tags {
-  margin: 0.5em 0;
+/* 7. TOC 目录：更紧凑、字号更易读 */
+.md-nav--secondary .md-nav__link {
+  font-size: 0.78rem;
+  line-height: 1.5;
 }
 
-.md-tag {
-  font-size: 0.75rem;
+.md-nav--secondary .md-nav__item--section > .md-nav__link {
+  font-size: 0.82rem;
+  font-weight: 600;
 }
 
 /* 8. 时间线表格在小屏上的可读性 */
@@ -75,4 +87,48 @@ blockquote {
   .md-typeset table:not([class]) {
     font-size: 0.8rem;
   }
+  .md-typeset table:not([class]) th:first-child {
+    width: auto;
+    white-space: normal;
+  }
+}
+
+/* 9. 基本信息表窄屏优化：避免代表著作格撑爆 */
+.md-typeset table:not([class]) td:last-child {
+  word-break: break-word;
+}
+
+/* 10. 「回到顶部」与元数据分行：轻微上色 */
+.md-typeset hr + p a[href$="#top"],
+.md-typeset p > a[href$="#top"] {
+  display: inline-block;
+  font-weight: 600;
+  color: var(--md-primary-fg-color);
+}
+
+/* 11. 导航栏：节标题缩进层级感 */
+.md-nav__item--section > .md-nav__link {
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+/* 12. 暗色模式：引用块背景色微调，避免太亮 */
+[data-md-color-scheme="slate"] blockquote {
+  background-color: rgba(159, 168, 218, 0.08);
+}
+
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) th {
+  background-color: rgba(159, 168, 218, 0.08);
+}
+
+/* 13. Mermaid 图：与内容等宽 */
+.md-typeset .mermaid {
+  margin: 1.5em auto;
+  text-align: center;
+}
+
+/* 14. 形容词条页（"延伸阅读"）列表更紧凑 */
+.md-typeset ul li,
+.md-typeset ol li {
+  margin-bottom: 0.25em;
 }
