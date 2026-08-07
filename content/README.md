@@ -4,35 +4,25 @@
   <img src="social-preview.png" width="640" alt="哲学家百科全书 · Philosopher Encyclopedia" />
 </p>
 
-
 <p align="center">
-  <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License" />
-  <img src="https://img.shields.io/badge/状态-持续更新-green.svg" alt="Status" />
-  <img src="https://img.shields.io/badge/已收录-48位-orange.svg" alt="Philosophers" />
-  <img src="https://img.shields.io/github/stars/GTX950L/philosopher-encyclopedia?style=social" alt="Stars" />
-  <img src="https://img.shields.io/github/forks/GTX950L/philosopher-encyclopedia?style=social" alt="Forks" />
-  <img src="https://img.shields.io/github/actions/workflow/status/GTX950L/philosopher-encyclopedia/deploy-pages.yml?branch=main&label=部署&logo=github" alt="Deploy Status" />
+  <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License: MIT" />
+  <img src="https://img.shields.io/badge/已收录-48位哲学家-orange.svg" alt="已收录 48 位哲学家" />
+  <img src="https://img.shields.io/badge/状态-持续更新-green.svg" alt="持续更新" />
+  <img src="https://img.shields.io/github/actions/workflow/status/GTX950L/philosopher-encyclopedia/deploy-pages.yml?branch=main&label=部署&logo=github" alt="部署状态" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/GTX950L/philosopher-encyclopedia/issues">
-    <img src="https://img.shields.io/github/issues/GTX950L/philosopher-encyclopedia?color=red" alt="Issues" />
-  </a>
-  <a href="https://github.com/GTX950L/philosopher-encyclopedia/pulls">
-    <img src="https://img.shields.io/github/issues-pr/GTX950L/philosopher-encyclopedia?color=purple" alt="Pull Requests" />
-  </a>
-  <a href="https://github.com/GTX950L/philosopher-encyclopedia/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/GTX950L/philosopher-encyclopedia?color=blueviolet" alt="Contributors" />
-  </a>
-  <a href="https://GTX950L.github.io/philosopher-encyclopedia/">
-    <img src="https://img.shields.io/badge/🚀-在线浏览-blue?style=flat" alt="在线浏览" />
-  </a>
+  <a href="https://github.com/GTX950L/philosopher-encyclopedia"><img src="https://img.shields.io/github/stars/GTX950L/philosopher-encyclopedia?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/GTX950L/philosopher-encyclopedia/fork"><img src="https://img.shields.io/github/forks/GTX950L/philosopher-encyclopedia?style=social" alt="GitHub Forks" /></a>
+  <a href="https://github.com/GTX950L/philosopher-encyclopedia/issues"><img src="https://img.shields.io/github/issues/GTX950L/philosopher-encyclopedia?color=red" alt="Issues" /></a>
+  <a href="https://github.com/GTX950L/philosopher-encyclopedia/pulls"><img src="https://img.shields.io/github/issues-pr/GTX950L/philosopher-encyclopedia?color=purple" alt="Pull Requests" /></a>
+  <a href="https://github.com/GTX950L/philosopher-encyclopedia/graphs/contributors"><img src="https://img.shields.io/github/contributors/GTX950L/philosopher-encyclopedia?color=blueviolet" alt="Contributors" /></a>
 </p>
 
 <p align="center">
-  <a href="https://visitor-badge.laobi.tech/badge?page_id=GTX950L.philosopher-encyclopedia">
-    <img src="https://visitor-badge.laobi.tech/badge?page_id=GTX950L.philosopher-encyclopedia" alt="Visitors" />
-  </a>
+  <a href="https://GTX950L.github.io/philosopher-encyclopedia/"><img src="https://img.shields.io/badge/在线浏览-阅读站点-blue?style=for-the-badge" alt="在线浏览" /></a>
+  &nbsp;
+  <a href="https://visitor-badge.laobi.tech/badge?page_id=GTX950L.philosopher-encyclopedia"><img src="https://visitor-badge.laobi.tech/badge?page_id=GTX950L.philosopher-encyclopedia" alt="Visitors" /></a>
 </p>
 
 ## 📖 项目简介
@@ -43,6 +33,33 @@
 - **核心思想** - 哲学体系与关键观点
 - **代表作品** - 主要著作及内容概要
 - **历史影响** - 对后世哲学、社会、文化的深远影响
+
+## 🗺️ 学习路径鸟瞰图
+
+下图展示了**六阶学习路径**的设计逻辑：从具体经验（荒诞感）→ 抽象体系（存在主义）→ 思想源头（古希腊/中国）→ 现实关切（政治哲学）→ 现代分析（语言/逻辑）→ 早期思想（教父/经验）。箭头表示"建议先读谁"的依赖方向。
+
+```mermaid
+flowchart LR
+    A[第一阶<br/>存在主义入门<br/>9 位] --> B[第二阶<br/>扩展与深化<br/>10 位]
+    B --> C[第三阶<br/>古希腊·中国·近代源头<br/>11 位]
+    C --> D[第四阶<br/>近代政治哲学到开放社会<br/>12 位]
+    D --> E[第五阶<br/>墨家·理性主义·分析哲学<br/>3 位]
+    E --> F[第六阶<br/>中世纪教父·经验启蒙<br/>3 位]
+
+    A -. 加缪先于萨特 .-> A1[从具体经验<br/>到体系]
+    B -. 黑格尔/马克思 .-> C
+    C -. 苏格拉底→柏拉图 .-> B
+    D -. 罗尔斯基于康德 .-> C
+
+    style A fill:#e3f2fd,stroke:#1565c0
+    style B fill:#e8f5e9,stroke:#2e7d32
+    style C fill:#fff3e0,stroke:#ef6c00
+    style D fill:#fce4ec,stroke:#c62828
+    style E fill:#f3e5f5,stroke:#6a1b9a
+    style F fill:#ede7f6,stroke:#4527a0
+```
+
+> 💡 路径图只是建议。如果你已经对古希腊或分析哲学有基础，可直接进入对应阶。**不一定要按顺序读**——兴趣驱动的跳跃式阅读也是哲学学习的常见路径。
 
 ## 🎯 项目目标
 
@@ -57,14 +74,14 @@
 
 | 顺序 | 哲学家 | 为什么这样排 |
 |------|--------|-------------|
-| 1 | [阿尔贝·加缪](philosophers/camus.md) | 最易入门——'荒诞感'人人有体会，不需要哲学基础 |
+| 1 | [阿尔贝·加缪](philosophers/camus.md) | 最易入门——「荒诞感」人人有体会，不需要哲学基础 |
 | 2 | [让-保罗·萨特](philosophers/sartre.md) | 承接加缪，系统展开存在主义的核心命题 |
-| 3 | [索伦·克尔凯郭尔](philosophers/kierkegaard.md) | 回溯源头——'存在主义之父'，理解'个体'概念的起点 |
+| 3 | [索伦·克尔凯郭尔](philosophers/kierkegaard.md) | 回溯源头——「存在主义之父」，理解「个体」概念的起点 |
 | 4 | [弗里德里希·尼采](philosophers/nietzsche.md) | 另一条根——强力意志与上帝之死，与克尔凯郭尔并列为思想源头 |
 | 5 | [亚瑟·叔本华](philosophers/schopenhauer.md) | 尼采的思想源头——意志哲学与悲观主义 |
 | 6 | [埃德蒙德·胡塞尔](philosophers/husserl.md) | 现象学创始人——先验还原与意向性，海德格尔的思想源头 |
 | 7 | [马丁·海德格尔](philosophers/heidegger.md) | 理论奠基——《存在与时间》是萨特存在主义的理论底座 |
-| 8 | [西蒙娜·德·波伏娃](philosophers/beauvoir.md) | 存在主义的应用——将'自由'框架推向女性主义 |
+| 8 | [西蒙娜·德·波伏娃](philosophers/beauvoir.md) | 存在主义的应用——将「自由」框架推向女性主义 |
 | 9 | [莫里斯·梅洛-庞蒂](philosophers/merleau-ponty.md) | 现象学身体转向——补全法国存在主义圈的版图 |
 
 ---
@@ -90,17 +107,17 @@
 
 | 顺序 | 哲学家 | 为什么这样排 |
 |------|--------|-------------|
-| 20 | [老子](philosophers/laozi.md) | 中国哲学源头——'道'的概念，与赫拉克利特的'流变'思想遥相呼应 |
-| 21 | [庄子](philosophers/zhuangzi.md) | 道家另一位高峰——'齐物论'与相对主义，轻松好读 |
-| 22 | [孔子](philosophers/confucius.md) | 中国哲学另一极——'仁'与伦理实践，和西方本体论形成对照 |
-| 23 | [孟子](philosophers/mencius.md) | 儒家第二号——'性善论'与仁政，承接孔子并发展出心性论 |
+| 20 | [老子](philosophers/laozi.md) | 中国哲学源头——「道」的概念，与赫拉克利特的「流变」思想遥相呼应 |
+| 21 | [庄子](philosophers/zhuangzi.md) | 道家另一位高峰——「齐物论」与相对主义，轻松好读 |
+| 22 | [孔子](philosophers/confucius.md) | 中国哲学另一极——「仁」与伦理实践，和西方本体论形成对照 |
+| 23 | [孟子](philosophers/mencius.md) | 儒家第二号——「性善论」与仁政，承接孔子并发展出心性论 |
 | 24 | [王守仁（王阳明）](philosophers/wangyangming.md) | 中国心学集大成者——「知行合一」「致良知」，宋明理学高峰，深刻影响东亚思想 |
-| 25 | [赫拉克利特](philosophers/heraclitus.md) | 古希腊变化哲学——'人不能两次踏入同一条河流'，与老子'道'有相通之处 |
-| 26 | [苏格拉底](philosophers/socrates.md) | 古希腊哲学起点——'未经省察的人生不值得过'，助产术方法论 |
+| 25 | [赫拉克利特](philosophers/heraclitus.md) | 古希腊变化哲学——「人不能两次踏入同一条河流」，与老子「道」有相通之处 |
+| 26 | [苏格拉底](philosophers/socrates.md) | 古希腊哲学起点——「未经省察的人生不值得过」，助产术方法论 |
 | 27 | [柏拉图](philosophers/plato.md) | 理念论——苏格拉底的弟子，西方哲学正统之源 |
 | 28 | [亚里士多德](philosophers/aristotle.md) | 逻辑学之父——柏拉图的学生，创立了形式逻辑与科学方法论 |
-| 29 | [勒内·笛卡尔](philosophers/descartes.md) | 近代哲学之父——'我思故我在'，理性主义奠基人 |
-| 30 | [大卫·休谟](philosophers/hume.md) | 经验主义高峰——康德称其'打破了我的独断论' |
+| 29 | [勒内·笛卡尔](philosophers/descartes.md) | 近代哲学之父——「我思故我在」，理性主义奠基人 |
+| 30 | [大卫·休谟](philosophers/hume.md) | 经验主义高峰——康德称其「打破了我的独断论」 |
 
 ---
 
@@ -109,11 +126,11 @@
 | 顺序 | 哲学家 | 为什么这样排 |
 |------|--------|-------------|
 | 31 | [尼科洛·马基雅维利](philosophers/machiavelli.md) | 近代政治哲学起点——《君主论》，政治现实主义，西方政治哲学的转折点 |
-| 32 | [伊曼努尔·康德](philosophers/kant.md) | 哲学转折——'哥白尼式革命'，连接古代与现代哲学的枢纽 |
+| 32 | [伊曼努尔·康德](philosophers/kant.md) | 哲学转折——「哥白尼式革命」，连接古代与现代哲学的枢纽 |
 | 33 | [托马斯·霍布斯](philosophers/hobbes.md) | 社会契约论起点，自然状态与利维坦 |
 | 34 | [约翰·洛克](philosophers/locke.md) | 古典自由主义，自然权利与有限政府 |
-| 35 | [让-雅克·卢梭](philosophers/rousseau.md) | 社会契约论另一极——'人生而自由，却处处身戴枷锁'，人民主权与公意 |
-| 36 | [杰里米·边沁](philosophers/bentham.md) | 功利主义创始人——'最大多数人的最大幸福'，密尔的思想源头 |
+| 35 | [让-雅克·卢梭](philosophers/rousseau.md) | 社会契约论另一极——「人生而自由，却处处身戴枷锁」，人民主权与公意 |
+| 36 | [杰里米·边沁](philosophers/bentham.md) | 功利主义创始人——「最大多数人的最大幸福」，密尔的思想源头 |
 | 37 | [约翰·斯图尔特·密尔](philosophers/mill.md) | 功利主义与论自由，伤害原则 |
 | 38 | [约翰·杜威](philosophers/dewey.md) | 美国实用主义，民主作为生活方式 |
 | 39 | [卡尔·波普尔](philosophers/popper.md) | 批判理性主义，开放社会及其敌人 |
