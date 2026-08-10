@@ -51,22 +51,52 @@ jobs:
       - uses: actions/checkout@v7
       - name: Check internal philosopher links
         run: |
-          set +e
-          fail=0
-          while IFS= read -r file; do
-            while IFS= read -r line; do
-              for link in $(echo "$line" | grep -oE "philosophers/[a-zA-Z0-9_-]+\.md"); do
-                if [ ! -f "content/$link" ]; then
-                  if ! echo "$line" | grep -q "尚未收录"; then
-                    echo "::error file=$file::断链 $link （未标注「尚未收录」）"
-                    fail=1
-                  fi
-                fi
-              done
-            done < "$file"
-          done < <(find . -name "*.md" -not -path "./site/*" -not -path "./.git/*")
-          if [ $fail -ne 0 ]; then
-            echo "发现内部断链，请补全条目或在链接后标注「尚未收录」"
-            exit 1
-          fi
-          echo "All internal philosopher links OK"
+          python - <<'EOF'
+          import os, re, sys
+
+          BASE = "content"
+          fail = 0
+          link_re = re.compile(r"\[[^\]]*\]\(([^)]+)\)")
+
+          # 收集 content/ 下所有真实文件（相对路径）
+          real = set()
+          for root, _, files in os.walk(BASE):
+              for f in files:
+                  real.add(os.path.relpath(os.path.join(root, f), BASE).replace(os.sep, "/"))
+
+          md_files = []
+          for root, _, files in os.walk(BASE):
+              for f in files:
+                  if f.endswith(".md"):
+                      md_files.append(os.path.join(root, f))
+
+          for path in md_files:
+              # 模板占位符（姓名.md / philosopherN.md）不属于断链
+              if path.endswith("template.md"):
+                  continue
+              rel_dir = os.path.dirname(os.path.relpath(path, BASE))
+              with open(path, encoding="utf-8") as fh:
+                  text = fh.read()
+              for m in link_re.finditer(text):
+                  target = m.group(1).strip()
+                  if target.startswith(("http://", "https://", "mailto:", "#")):
+                      continue
+                  t = target.split("#")[0].strip()
+                  if not t.endswith(".md"):
+                      continue
+                  resolved = os.path.normpath(os.path.join(rel_dir, t)).replace(os.sep, "/")
+                  if resolved in real:
+                      continue
+                  line_start = text.rfind("\n", 0, m.start()) + 1
+                  line_end = text.find("\n", m.end())
+                  if line_end == -1:
+                      line_end = len(text)
+                  line = text[line_start:line_end]
+                  if "尚未收录" not in line:
+                      print(f"::error file={path}::断链 {t} （未标注「尚未收录」）")
+                      fail = 1
+          if fail:
+              print("发现内部断链，请补全条目或在链接后标注「尚未收录」")
+              sys.exit(1)
+          print("All internal philosopher links OK")
+          EOF

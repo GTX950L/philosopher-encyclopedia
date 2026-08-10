@@ -65,12 +65,12 @@
 | 18 | 卡尔·波普尔 (Karl Popper) | ka er   bo pu er | [popper.md](../philosophers/popper.md) |
 | 19 | 卡尔·马克思 (Karl Marx) | ka er   ma ke si | [marx.md](../philosophers/marx.md) |
 | 20 | 卡尔·雅斯贝尔斯 (Karl Jaspers) | ka er   ya si bei er si | [jaspers.md](../philosophers/jaspers.md) |
-| 21 | 孔子 (Confucius / 孔丘) | kong zi | [confucius.md](../philosophers/confucius.md) |
+| 21 | 孔子 (Confucius) | kong zi | [confucius.md](../philosophers/confucius.md) |
 ## L
 
 | 序号 | 哲学家（中文 / 英文） | 拼音 | 文件 |
 |------|--------------------|------|------|
-| 22 | 老子 (Laozi / 道德经) | lao zi | [laozi.md](../philosophers/laozi.md) |
+| 22 | 老子 (Laozi) | lao zi | [laozi.md](../philosophers/laozi.md) |
 | 23 | 勒内·笛卡尔 (René Descartes) | lei nei   di ka er | [descartes.md](../philosophers/descartes.md) |
 | 24 | 路德维希·维特根斯坦 (Ludwig Wittgenstein) | lu de wei xi   wei te gen si tan | [wittgenstein.md](../philosophers/wittgenstein.md) |
 ## M
@@ -78,7 +78,7 @@
 | 序号 | 哲学家（中文 / 英文） | 拼音 | 文件 |
 |------|--------------------|------|------|
 | 25 | 马丁·海德格尔 (Martin Heidegger) | ma ding   hai de ge er | [heidegger.md](../philosophers/heidegger.md) |
-| 26 | 孟子 (Mencius / 孟轲) | meng zi | [mencius.md](../philosophers/mencius.md) |
+| 26 | 孟子 (Mencius) | meng zi | [mencius.md](../philosophers/mencius.md) |
 | 27 | 米歇尔·福柯 (Michel Foucault) | mi xie er   fu ke | [foucault.md](../philosophers/foucault.md) |
 | 28 | 莫里斯·梅洛-庞蒂 (Maurice Merleau-Ponty) | mo li si   mei luo   pang di | [merleau-ponty.md](../philosophers/merleau-ponty.md) |
 | 29 | 墨子 (Mozi) | mo zi | [mozi.md](../philosophers/mozi.md) |
@@ -109,7 +109,7 @@
 
 | 序号 | 哲学家（中文 / 英文） | 拼音 | 文件 |
 |------|--------------------|------|------|
-| 37 | 王守仁（王阳明） (Wang Yangming / 王守仁) | wang shou ren （ wang yang ming ） | [wangyangming.md](../philosophers/wangyangming.md) |
+| 37 | 王守仁 (Wang Yangming) | wang shou ren | [wangyangming.md](../philosophers/wangyangming.md) |
 ## X
 
 | 序号 | 哲学家（中文 / 英文） | 拼音 | 文件 |
@@ -132,7 +132,7 @@
 
 | 序号 | 哲学家（中文 / 英文） | 拼音 | 文件 |
 |------|--------------------|------|------|
-| 48 | 庄子 (Zhuangzi / Chuang Tzu) | zhuang zi | [zhuangzi.md](../philosophers/zhuangzi.md) |
+| 48 | 庄子 (Zhuangzi) | zhuang zi | [zhuangzi.md](../philosophers/zhuangzi.md) |
 
 ---
 

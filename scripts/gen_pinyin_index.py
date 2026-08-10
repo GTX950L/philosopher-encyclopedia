@@ -56,10 +56,19 @@ def main():
             continue
         cn_name = m.group(1).strip()
         en_name = m.group(2).strip()
-        letter = first_letter(cn_name)
+        # 剔除中文名中的全角括号及括号内容（如「王守仁（王阳明）」→「王守仁」）
+        cn_clean = re.sub(r"（[^）]*）", "", cn_name).strip()
+        if not cn_clean:
+            cn_clean = cn_name
+        # 英文名过滤掉中文字符（如「Laozi / 道德经」→「Laozi」），并清理多余分隔符
+        en_clean = re.sub(r"[\u4e00-\u9fff]+", "", en_name)
+        en_clean = re.sub(r"\s*[/|]\s*$", "", en_clean).strip()
+        if not en_clean:
+            en_clean = en_name
+        letter = first_letter(cn_clean)
         # 完整拼音（用于显示）
-        full_py = " ".join(lazy_pinyin(cn_name.replace("·", " ").replace("-", " ")))
-        items.append((letter, full_py, cn_name, en_name, fname))
+        full_py = " ".join(lazy_pinyin(cn_clean.replace("·", " ").replace("-", " ")))
+        items.append((letter, full_py, cn_clean, en_clean, fname))
 
     # 排序：按首字母 + 拼音
     items.sort(key=lambda x: (x[0], x[1]))

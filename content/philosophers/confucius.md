@@ -4,7 +4,7 @@ tags:
   - 中国哲学
   - 春秋战国
 ---
-# 孔子 (Confucius / 孔丘)
+# 孔子 (Confucius)
 <a id="top"></a>
 
 > "己所不欲，勿施于人。"

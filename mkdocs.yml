@@ -129,9 +129,12 @@ nav:
           - 托马斯·阿奎那: philosophers/aquinas.md
           - 弗朗西斯·培根: philosophers/bacon.md
   - 参考:
+      - 项目欢迎页: docs/index.md
       - 哲学流派概览: docs/schools.md
       - 哲学史时间线: docs/timeline.md
       - 拼音索引（A-Z）: docs/index-by-pinyin.md
       - 标签分类: tags.md
       - 条目模板: template.md
+      - 更新日志: CHANGELOG.md
       - 贡献指南: CONTRIBUTING.md
+      - 待收录清单: docs/roadmap.md

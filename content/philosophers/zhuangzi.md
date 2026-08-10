@@ -4,7 +4,7 @@ tags:
   - 中国哲学
   - 春秋战国
 ---
-# 庄子 (Zhuangzi / Chuang Tzu)
+# 庄子 (Zhuangzi)
 <a id="top"></a>
 
 > "北冥有鱼，其名为鲲。鲲之大，不知其几千里也。"  
